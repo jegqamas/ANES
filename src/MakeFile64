@@ -1,0 +1,69 @@
+# This make file compiles for Linux only, compiling for windows is not implemented yet.
+# You'll need make, gcc and libsdl2-dev installed.
+# Using make program, in terminal type: make -f MakeFile64 all
+CXX := gcc
+CXXFLAGS := -c -Wall -O3
+
+TARGET_DIR := bin/
+TARGET_FILE := $(TARGET_DIR)ANES
+
+CPFLAGS := 
+LDFLAGS := -lSDL2 -lSDL2main
+
+DIRS := 
+DIRS += bin/
+DIRS += bin/Release/
+DIRS += bin/ReleaseLinux/
+DIRS += obj/
+DIRS += obj/NesEmu/
+DIRS += obj/SDLOut/
+DIRS += obj/NesEmu/Mappers/
+DIRS += obj/NesEmu/ExternalSoundChannels/
+DIRS += obj/NesEmu/ROM/
+
+SRCS :=
+CPPS := $(subst ./,obj/,$(shell find . -regex ^.*?\.c$))
+OBJS := $(subst .c,.o,$(CPPS))
+MKDIR := mkdir -p $(DIRS)
+
+INCLUDES := 
+LINKERS := 
+
+ifeq ($(OS), WINDOWS)
+
+# NOT WORKING
+	TARGET_DIR = bin/Release/
+	TARGET_FILE = $(TARGET_DIR)ANES.exe
+	
+	INCLUDES += -IC:../../../SDL2/SDL2-2.0.16/x86_64-w64-mingw32/include
+	INCLUDES += -IC:../../../SDL2/SDL2_image-2.0.5/x86_64-w64-mingw32/include
+	INCLUDES += -IC:../../../SDL2/SDL2_ttf-2.0.15/x86_64-w64-mingw32/include
+	INCLUDES += -IC:../../../SDL2/SDL2-2.0.16/x86_64-w64-mingw32/include/SDL2
+
+	LINKERS += -LC:../../../SDL2/SDL2-2.0.16/x86_64-w64-mingw32/lib
+	LINKERS += -LC:../../../SDL2/SDL2_image-2.0.5/x86_64-w64-mingw32/lib
+	LINKERS += -LC:../../../SDL2/SDL2_ttf-2.0.15/x86_64-w64-mingw32/lib
+	
+else
+	TARGET_DIR := bin/ReleaseLinux/
+	TARGET_FILE := $(TARGET_DIR)ANES
+	INCLUDES = 
+	LINKERS = 
+endif
+
+all: dir $(OBJS)
+	@echo Creating executable $@
+	$(CXX) $(OBJS) $(CPFLAGS) $(INCLUDES) -lm $(LINKERS) $(LDFLAGS) -o $(TARGET_FILE)
+	
+dir:
+	$(MKDIR)
+
+obj/%.o: %.c
+	@echo Building $@
+	@$(CXX) $(CXXFLAGS) $< -o $@
+
+obj/Resources.o: Resources.rc
+	@windres.exe -J rc -O coff -i Resources.rc -o $@
+	
+clean:
+	@$(RM) $(OBJS)

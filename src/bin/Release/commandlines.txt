@@ -1,0 +1,104 @@
+My C Nes commandlines
+---------------------
+The first commandline must be game file path, other commands should follow.
+
+List of available commandlines as of version 1.0:
+-------------------------------------------------
+Commands here are listed in format [commandID]CommandName: describtion what it does. Only command id is needed.
+
+// VIDEO COMMANDS
+
+- [-opengl]     Video driver opengl :                               set video driver into opengl. This is a default setting.
+- [-direct3d]   Video driver Direct3D :                             set video driver into direct3d.
+- [-f_point]    Video filter point :                                set video filter into point. 
+- [-f_linear]   Video filter point :                                set video filter into linear. This is a default setting.
+- [-kar]        Video keep aspect ratio :                           set video to keep aspect ratio. This is a default setting.
+- [-nkar]       Video not keep aspect ratio :                       set video to not to keep aspect ratio.
+- [-wins_m_1]   Video window multiply :                             set video window size multiply by 1.
+- [-wins_m_2]   Video window multiply :                             set video window size multiply by 2. This is a default setting.
+- [-wins_m_3]   Video window multiply :                             set video window size multiply by 3.
+- [-wins_m_4]   Video window multiply :                             set video window size multiply by 4.
+- [-wins_m_5]   Video window multiply :                             set video window size multiply by 5.
+- [-wins_m_6]   Video window multiply :                             set video window size multiply by 6.
+- [-wins_m_7]   Video window multiply :                             set video window size multiply by 7.
+- [-wins_m_8]   Video window multiply :                             set video window size multiply by 8.
+- [-wins_m_9]   Video window multiply :                             set video window size multiply by 9.
+- [-wins_m_10]  Video window multiply :                             set video window size multiply by 10.
+- [-ures]       Video use resolution upscale :                      set video to use resolution upscale. This is a default setting.
+- [-nures]      Video no use resolution upscale :                   set video to not to use resolution upscale. (render will be set to nes default 256 x 240. Options of window multiply will based on res 640 * m x 480 * m) as well.
+- [-res_4_3]    Video upscale-res set 4:3 standard :                set video resolution to 640 x 480 (4:3 standard) if resolution upscale is set.
+- [-res_4_3_2]  Video upscale-res set 4:3 standard mulitplied by 2: set video resolution to 1280 x 960 if resolution upscale is set.
+- [-res_hdtv]   Video upscale-res set to HDTV :                     set video resolution to 1280 x 720 if resolution upscale is set.
+- [-res_fullhd] Video upscale-res set to HDTV :                     set video resolution to 1920 x 1080 if resolution upscale is set.
+- [-res_2k]     Video upscale-res set to 2k :                       set video resolution to 2560 x 1440 if resolution upscale is set.
+- [-res_4k]     Video upscale-res set to 4k:                        set video resolution to 3840 x 2160 if resolution upscale is set.
+
+// AUDIO COMMANDS
+
+- [-afreq_110] Audio frequency set to 11025 Hz : set audio frequency into 11025 Hz.
+- [-afreq_220] Audio frequency set to 22050 Hz : set audio frequency into 22050 Hz.
+- [-afreq_441] Audio frequency set to 44100 Hz : set audio frequency into 44100 Hz. This is a default setting.
+- [-afreq_480] Audio frequency set to 48000 Hz : set audio frequency into 48000 Hz. 
+- [-afreq_882] Audio frequency set to 88200 Hz : set audio frequency into 88200 Hz. 
+- [-afreq_960] Audio frequency set to 96000 Hz : set audio frequency into 96000 Hz.
+
+// PLAYERS CONTROLS COMMANDS
+
+- [-pl1_k]    Player 1 use keyboard :                    set player 1 to use keyboard. This is a default setting.
+- [-pl1_gc]   Player 1 use game controller :             set player 1 to use game controller.
+- [-pl1_gc_1] Player 1 use game controller of player 1 : set player 1 to use game controller of player 1. Setting above only tell to use game controller, this one tells which one.
+- [-pl1_gc_2] Player 1 use game controller of player 2 : set player 1 to use game controller of player 2. 
+- [-pl2_k]    Player 2 use keyboard :                    set player 2 to use keyboard.
+- [-pl2_gc]   Player 2 use game controller :             set player 2 to use game controller.
+- [-pl2_gc_1] Player 2 use game controller of player 1 : set player 2 to use game controller of player 1. Setting above only tell to use game controller, this one tells which one.
+- [-pl2_gc_2] Player 2 use game controller of player 2 : set player 2 to use game controller of player 2.
+ 
+// NOTE: keyboard buttons layout is fixed, that's mean using keyboard for both player 1 and 2 is a bad idea. 
+// By default, player 2 is not configured (disabled).
+
+// BOARDS SETUP COMMANDS
+
+- [-mmc1a] Set MMC1 to use MMCA :                        set MMC1 to use MMCA version of the board.
+- [-mmc1sr] Set MMC1 to use SRAM config:                 set MMC1 to use SRAM toggles, used in some versions of the board.
+- [-mmc3a] Set MMC3 to use MMCA :                        set MMC3 to use MMCA version of the board.
+- [-mmc5m] Set MMC5 to use Mirroring config :            set MMC5 to use mirroring config, used in some versions of the board. 
+- [-axrom_b] Set AXROM to use bus conflicts :            set AXROM to use bus conflicts, used in some versions of the board. 
+- [-camerica_fh] Set Camerica to use setup of Fire Hawk: set Camerica to use setup of Fire Hawk.
+
+// Note: if setup is set with game that uses different board that the setup is set for (for example, -mmc1a for game uses MMC3) simply the emu will ignore it.
+
+Examples:
+---------
+This commandlines: 
+
+`MyCNes "path-to-game" -direct3d -wins_m_1 -ures -res_fullhd -afreq_480 -pl1_gc -pl1_gc_1`
+
+Will run game with fullhd res using direct3d video driver, audio frequency is set to 48000 Hz and player 1 uses game controller of player 1.
+
+
+`MyCNes "path-to-game" -wins_m_3 -pl1_gc -pl1_gc_1`
+
+Will run game with default res and window size is multiplied by 3, player 1 uses game controller of player 1.
+
+
+`MyCNes "path-to-game" -pl1_gc -pl1_gc_1 -pl2_gc -pl2_gc_2`
+
+Will run game with player 1 uses game controller of player 1 and player 2 uses game controller of player 2.
+
+
+`MyCNes "path-to-game" -pl1_gc -pl1_gc_1 -pl2_k`
+
+Will run game with player 1 uses game controller of player 1 and player 2 uses keyboard.
+
+
+`MyCNes "path-to-game" -pl2_gc -pl2_gc_1`
+
+Will run game with player 1 uses keyboard and player 2 uses game controller of player 1.
+
+
+## END OF DOCUMENT
+
+Written by Alaa Ibrahim Hadid.
+For My C Nes version 1.0.
+Last edit 27 May 2021 07:05
+----------------------------

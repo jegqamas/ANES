@@ -1,0 +1,4202 @@
+# depslib dependency file v1.0
+1629828622 source:d:\programming\agilenes\anes\main.c
+	"SDLOut/SDLVideoOut.h"
+	"SDLOut/SDLAudioOut.h"
+	"SDLOut/SDLInput.h"
+	"SDLOut/SDL_RENDERERS_DEFINES.h"
+	"NesEmu/NES.h"
+	"NesEmu/ROM/INES.h"
+	"NesEmu/DIFINES.h"
+	"NesEmu/Mappers/_Mappers.h"
+	"VERSION.h"
+
+1629828516 d:\programming\agilenes\anes\sdlout\sdlvideoout.h
+
+1629828516 d:\programming\agilenes\anes\sdlout\sdlaudioout.h
+
+1629828516 d:\programming\agilenes\anes\sdlout\sdlinput.h
+
+1629828516 d:\programming\agilenes\anes\sdlout\sdl_renderers_defines.h
+
+1629828516 d:\programming\agilenes\anes\nesemu\nes.h
+
+1629828516 d:\programming\agilenes\anes\nesemu\rom\ines.h
+
+1629828516 d:\programming\agilenes\anes\nesemu\difines.h
+
+1629828516 d:\programming\agilenes\anes\nesemu\mappers\_mappers.h
+
+1629828935 d:\programming\agilenes\anes\version.h
+
+1629828516 source:d:\programming\agilenes\anes\nesemu\apu.c
+	"NES.h"
+	"APU.h"
+	"DMA.h"
+	"DIFINES.h"
+	"SC_DMC.h"
+	"SC_Noise.h"
+	"SC_Square1.h"
+	"SC_Square2.h"
+	"SC_Triangle.h"
+	"SoundFilters.h"
+
+1629828516 d:\programming\agilenes\anes\nesemu\apu.h
+
+1629828516 d:\programming\agilenes\anes\nesemu\dma.h
+
+1629828516 d:\programming\agilenes\anes\nesemu\sc_dmc.h
+
+1629828516 d:\programming\agilenes\anes\nesemu\sc_noise.h
+
+1629828516 d:\programming\agilenes\anes\nesemu\sc_square1.h
+
+1629828516 d:\programming\agilenes\anes\nesemu\sc_square2.h
+
+1629828516 d:\programming\agilenes\anes\nesemu\sc_triangle.h
+
+1629828516 d:\programming\agilenes\anes\nesemu\soundfilters.h
+
+1629828516 source:d:\programming\agilenes\anes\nesemu\colors.c
+	"Colors.h"
+
+1629828516 d:\programming\agilenes\anes\nesemu\colors.h
+
+1629828516 source:d:\programming\agilenes\anes\nesemu\cpu.c
+	"CPU.h"
+	"Memory.h"
+
+1629828516 d:\programming\agilenes\anes\nesemu\cpu.h
+
+1629828516 d:\programming\agilenes\anes\nesemu\memory.h
+
+1629828516 source:d:\programming\agilenes\anes\nesemu\dma.c
+	"DMA.h"
+	"NES.h"
+	"Memory.h"
+	"APU.h"
+	"SC_DMC.h"
+
+1629828516 source:d:\programming\agilenes\anes\nesemu\mappers\mapper000.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1629828516 source:d:\programming\agilenes\anes\nesemu\mappers\mapper001.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1629828516 source:d:\programming\agilenes\anes\nesemu\mappers\mapper002.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1629828516 source:d:\programming\agilenes\anes\nesemu\mappers\mapper003.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1629828516 source:d:\programming\agilenes\anes\nesemu\mappers\mapper004.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1629828516 source:d:\programming\agilenes\anes\nesemu\mappers\mapper005.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+	"../PPU.h"
+
+1629828516 d:\programming\agilenes\anes\nesemu\ppu.h
+
+1629828516 source:d:\programming\agilenes\anes\nesemu\mappers\mapper007.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1629828516 source:d:\programming\agilenes\anes\nesemu\mappers\mapper071.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1629828516 source:d:\programming\agilenes\anes\nesemu\mappersinitiailizer.c
+	"Mappers/_Mappers.h"
+	"MappersInitiailizer.h"
+	"Memory.h"
+	"PPU.h"
+	"NES.h"
+
+1629828516 d:\programming\agilenes\anes\nesemu\mappersinitiailizer.h
+
+1629828516 source:d:\programming\agilenes\anes\nesemu\memory.c
+	"Memory.h"
+	"PPU.h"
+	"APU.h"
+	"NES.h"
+
+1629828516 source:d:\programming\agilenes\anes\nesemu\nes.c
+	"NES.h"
+	"DIFINES.h"
+	"ROM/INES.h"
+	"Mappers/_Mappers.h"
+	"APU.h"
+	"CPU.h"
+	"PPU.h"
+	"DMA.h"
+	"Memory.h"
+	"MappersInitiailizer.h"
+
+1629828516 source:d:\programming\agilenes\anes\nesemu\ppu.c
+	"PPU.h"
+	"DIFINES.h"
+	"Memory.h"
+	"Colors.h"
+
+1629828516 source:d:\programming\agilenes\anes\nesemu\rom\ines.c
+	"INES.h"
+	"../Memory.h"
+	<stdio.h>
+	<unistd.h>
+
+1629828516 source:d:\programming\agilenes\anes\nesemu\sc_dmc.c
+	"DIFINES.h"
+	"SC_DMC.h"
+	"DMA.h"
+	"Memory.h"
+	"NES.h"
+	"APU.h"
+
+1629828516 source:d:\programming\agilenes\anes\nesemu\sc_noise.c
+	"DIFINES.h"
+	"SC_Noise.h"
+	"APU.h"
+
+1629828516 source:d:\programming\agilenes\anes\nesemu\sc_square1.c
+	"SC_Square1.h"
+	"DIFINES.h"
+	"APU.h"
+
+1629828516 source:d:\programming\agilenes\anes\nesemu\sc_square2.c
+	"SC_Square2.h"
+	"DIFINES.h"
+	"APU.h"
+
+1629828516 source:d:\programming\agilenes\anes\nesemu\sc_triangle.c
+	"SC_Triangle.h"
+	"DIFINES.h"
+	"APU.h"
+
+1629828516 source:d:\programming\agilenes\anes\nesemu\soundfilters.c
+	"SoundFilters.h"
+	<math.h>
+
+1629828885 source:d:\programming\agilenes\anes\sdlout\sdlaudioout.c
+	"SDLAudioOut.h"
+	"SDLVideoOut.h"
+	"SDL2/SDL.h"
+	"../NesEmu/NES.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610877 d:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1629828516 source:d:\programming\agilenes\anes\sdlout\sdlinput.c
+	"SDLInput.h"
+	"../NesEmu/APU.h"
+	<stdio.h>
+	"SDL2/SDL.h"
+	"SDL_RENDERERS_DEFINES.h"
+
+1629828899 source:d:\programming\agilenes\anes\sdlout\sdlvideoout.c
+	<stdio.h>
+	<string.h>
+	"SDLVideoOut.h"
+	"SDLAudioOut.h"
+	"SDLInput.h"
+	<SDL2/SDL.h>
+	<math.h>
+	"../NesEmu/PPU.h"
+	"../NesEmu/APU.h"
+	"../NesEmu/NES.h"
+	"../VERSION.h"
+
+1630117975 source:d:\programming\agilenes\anes\src\main.c
+	"SDLOut/SDLVideoOut.h"
+	"SDLOut/SDLAudioOut.h"
+	"SDLOut/SDLInput.h"
+	"SDLOut/SDL_RENDERERS_DEFINES.h"
+	"NesEmu/NES.h"
+	"NesEmu/ROM/INES.h"
+	"NesEmu/DIFINES.h"
+	"NesEmu/Mappers/_Mappers.h"
+	"VERSION.h"
+
+1629828516 d:\programming\agilenes\anes\src\sdlout\sdlvideoout.h
+
+1629828516 d:\programming\agilenes\anes\src\sdlout\sdlaudioout.h
+
+1629828516 d:\programming\agilenes\anes\src\sdlout\sdlinput.h
+
+1629828516 d:\programming\agilenes\anes\src\sdlout\sdl_renderers_defines.h
+
+1629828516 d:\programming\agilenes\anes\src\nesemu\nes.h
+
+1629828516 d:\programming\agilenes\anes\src\nesemu\rom\ines.h
+
+1629828516 d:\programming\agilenes\anes\src\nesemu\difines.h
+
+1631151390 d:\programming\agilenes\anes\src\nesemu\mappers\_mappers.h
+
+1630376283 d:\programming\agilenes\anes\src\version.h
+
+1629828516 source:d:\programming\agilenes\anes\src\nesemu\colors.c
+	"Colors.h"
+
+1629828516 d:\programming\agilenes\anes\src\nesemu\colors.h
+
+1629831788 source:d:\programming\agilenes\anes\src\nesemu\cpu.c
+	"CPU.h"
+	"Memory.h"
+
+1629828516 d:\programming\agilenes\anes\src\nesemu\cpu.h
+
+1630359827 d:\programming\agilenes\anes\src\nesemu\memory.h
+
+1629828516 source:d:\programming\agilenes\anes\src\nesemu\dma.c
+	"DMA.h"
+	"NES.h"
+	"Memory.h"
+	"APU.h"
+	"SC_DMC.h"
+
+1629828516 d:\programming\agilenes\anes\src\nesemu\dma.h
+
+1631151412 d:\programming\agilenes\anes\src\nesemu\apu.h
+
+1629828516 d:\programming\agilenes\anes\src\nesemu\sc_dmc.h
+
+1630375510 source:d:\programming\agilenes\anes\src\nesemu\mappers\mapper000.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1630117297 source:d:\programming\agilenes\anes\src\nesemu\mappers\mapper001.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1629828516 source:d:\programming\agilenes\anes\src\nesemu\mappers\mapper002.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1629828516 source:d:\programming\agilenes\anes\src\nesemu\mappers\mapper003.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1630117310 source:d:\programming\agilenes\anes\src\nesemu\mappers\mapper004.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1629828516 source:d:\programming\agilenes\anes\src\nesemu\mappers\mapper007.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1629828516 source:d:\programming\agilenes\anes\src\nesemu\mappers\mapper071.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1631154309 source:d:\programming\agilenes\anes\src\nesemu\memory.c
+	"Memory.h"
+	"PPU.h"
+	"APU.h"
+	"NES.h"
+
+1629828516 d:\programming\agilenes\anes\src\nesemu\ppu.h
+
+1631152798 source:d:\programming\agilenes\anes\src\nesemu\nes.c
+	"NES.h"
+	"DIFINES.h"
+	"ROM/INES.h"
+	"Mappers/_Mappers.h"
+	"APU.h"
+	"CPU.h"
+	"PPU.h"
+	"DMA.h"
+	"Memory.h"
+	"MappersInitiailizer.h"
+
+1630363598 d:\programming\agilenes\anes\src\nesemu\mappersinitiailizer.h
+
+1630360211 source:d:\programming\agilenes\anes\src\nesemu\ppu.c
+	"PPU.h"
+	"DIFINES.h"
+	"Memory.h"
+	"Colors.h"
+
+1629832180 source:d:\programming\agilenes\anes\src\nesemu\rom\ines.c
+	"INES.h"
+	"../Memory.h"
+	<stdio.h>
+	<unistd.h>
+
+1629828516 source:d:\programming\agilenes\anes\src\nesemu\sc_dmc.c
+	"DIFINES.h"
+	"SC_DMC.h"
+	"DMA.h"
+	"Memory.h"
+	"NES.h"
+	"APU.h"
+
+1629828516 source:d:\programming\agilenes\anes\src\nesemu\sc_noise.c
+	"DIFINES.h"
+	"SC_Noise.h"
+	"APU.h"
+
+1629828516 d:\programming\agilenes\anes\src\nesemu\sc_noise.h
+
+1630003917 source:d:\programming\agilenes\anes\src\nesemu\sc_square1.c
+	"SC_Square1.h"
+	"DIFINES.h"
+	"APU.h"
+
+1629828516 d:\programming\agilenes\anes\src\nesemu\sc_square1.h
+
+1629828516 source:d:\programming\agilenes\anes\src\nesemu\sc_square2.c
+	"SC_Square2.h"
+	"DIFINES.h"
+	"APU.h"
+
+1629828516 d:\programming\agilenes\anes\src\nesemu\sc_square2.h
+
+1629828516 source:d:\programming\agilenes\anes\src\nesemu\sc_triangle.c
+	"SC_Triangle.h"
+	"DIFINES.h"
+	"APU.h"
+
+1629828516 d:\programming\agilenes\anes\src\nesemu\sc_triangle.h
+
+1629828516 source:d:\programming\agilenes\anes\src\nesemu\soundfilters.c
+	"SoundFilters.h"
+	<math.h>
+
+1629828516 d:\programming\agilenes\anes\src\nesemu\soundfilters.h
+
+1629832881 source:d:\programming\agilenes\anes\src\sdlout\sdlaudioout.c
+	"SDLAudioOut.h"
+	"SDLVideoOut.h"
+	"SDL2/SDL.h"
+	"../NesEmu/NES.h"
+
+1629828516 source:d:\programming\agilenes\anes\src\sdlout\sdlinput.c
+	"SDLInput.h"
+	"../NesEmu/APU.h"
+	<stdio.h>
+	"SDL2/SDL.h"
+	"SDL_RENDERERS_DEFINES.h"
+
+1629832881 source:d:\programming\agilenes\anes\src\sdlout\sdlvideoout.c
+	<stdio.h>
+	<string.h>
+	"SDLVideoOut.h"
+	"SDLAudioOut.h"
+	"SDLInput.h"
+	<SDL2/SDL.h>
+	<math.h>
+	"../NesEmu/PPU.h"
+	"../NesEmu/APU.h"
+	"../NesEmu/NES.h"
+	"../VERSION.h"
+
+1631151895 source:d:\programming\agilenes\anes\src\nesemu\apu.c
+	"NES.h"
+	"APU.h"
+	"DMA.h"
+	"DIFINES.h"
+	"SC_DMC.h"
+	"SC_Noise.h"
+	"SC_Square1.h"
+	"SC_Square2.h"
+	"SC_Triangle.h"
+	"SoundFilters.h"
+
+1630022659 source:d:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_mmc5_pcm.c
+	"../NES.h"
+	"../DIFINES.h"
+	"SC_MMC5_PCM.h"
+
+1630005472 d:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_mmc5_pcm.h
+
+1630034085 source:d:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_mmc5_pulse1.c
+	"SC_MMC5_Pulse1.h"
+	"../APU.h"
+
+1630005528 d:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_mmc5_pulse1.h
+
+1630034085 source:d:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_mmc5_pulse2.c
+	"SC_MMC5_Pulse2.h"
+	"../APU.h"
+
+1630005552 d:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_mmc5_pulse2.h
+
+1631152963 source:d:\programming\agilenes\anes\src\nesemu\mappers\mapper005.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+	"../PPU.h"
+	"../APU.h"
+	"../ExternalSoundChannels/SC_MMC5_PCM.h"
+	"../ExternalSoundChannels/SC_MMC5_Pulse1.h"
+	"../ExternalSoundChannels/SC_MMC5_Pulse2.h"
+
+1631152502 source:d:\programming\agilenes\anes\src\nesemu\mappersinitiailizer.c
+	"Mappers/_Mappers.h"
+	"MappersInitiailizer.h"
+	"Memory.h"
+	"PPU.h"
+	"NES.h"
+	"APU.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610835 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1628610835 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1628610835 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1628610835 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\close_code.h
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610835 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1628610835 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610835 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610835 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610835 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1628610835 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610835 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610835 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610835 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610835 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610835 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610835 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610835 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628610834 d:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1630366893 source:d:\programming\agilenes\anes\src\nesemu\mappers\mapper009.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1630367072 source:d:\programming\agilenes\anes\src\nesemu\mappers\mapper010.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1630375390 source:d:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_vrc6_pulse1.c
+	"SC_VRC6_Pulse1.h"
+	"../APU.h"
+
+1630374344 d:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_vrc6_pulse1.h
+
+1630375403 source:d:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_vrc6_pulse2.c
+	"SC_VRC6_Pulse2.h"
+	"../APU.h"
+
+1630374802 d:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_vrc6_pulse2.h
+
+1630375450 source:d:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_vrc6_sawtooth.c
+	"SC_VRC6_Sawtooth.h"
+	"../APU.h"
+
+1630375008 d:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_vrc6_sawtooth.h
+
+1630360713 source:d:\programming\agilenes\anes\src\nesemu\mappers\mapper011.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1630366487 source:d:\programming\agilenes\anes\src\nesemu\mappers\mapper013.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1630367646 source:d:\programming\agilenes\anes\src\nesemu\mappers\mapper015.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1630368804 source:d:\programming\agilenes\anes\src\nesemu\mappers\mapper018.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1630370874 source:d:\programming\agilenes\anes\src\nesemu\mappers\mapper021.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1630371428 source:d:\programming\agilenes\anes\src\nesemu\mappers\mapper022.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1630372342 source:d:\programming\agilenes\anes\src\nesemu\mappers\mapper023.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1631151596 source:d:\programming\agilenes\anes\src\nesemu\mappers\mapper024.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+	"../ExternalSoundChannels/SC_VRC6_Pulse1.h"
+	"../ExternalSoundChannels/SC_VRC6_Pulse2.h"
+	"../ExternalSoundChannels/SC_VRC6_Sawtooth.h"
+
+1630373077 source:d:\programming\agilenes\anes\src\nesemu\mappers\mapper025.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1631151587 source:d:\programming\agilenes\anes\src\nesemu\mappers\mapper026.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+	"../ExternalSoundChannels/SC_VRC6_Pulse1.h"
+	"../ExternalSoundChannels/SC_VRC6_Pulse2.h"
+	"../ExternalSoundChannels/SC_VRC6_Sawtooth.h"
+
+1631171527 source:g:\programming\agilenes\anes\src\main.c
+	"SDLOut/SDLVideoOut.h"
+	"SDLOut/SDLAudioOut.h"
+	"SDLOut/SDLInput.h"
+	"SDLOut/SDL_RENDERERS_DEFINES.h"
+	"NesEmu/NES.h"
+	"NesEmu/APU.h"
+	"NesEmu/ROM/INES.h"
+	"NesEmu/DIFINES.h"
+	"NesEmu/Mappers/_Mappers.h"
+	"VERSION.h"
+
+1637229314 g:\programming\agilenes\anes\src\sdlout\sdlvideoout.h
+
+1629824916 g:\programming\agilenes\anes\src\sdlout\sdlaudioout.h
+
+1629824916 g:\programming\agilenes\anes\src\sdlout\sdlinput.h
+
+1629824916 g:\programming\agilenes\anes\src\sdlout\sdl_renderers_defines.h
+
+1629824916 g:\programming\agilenes\anes\src\nesemu\nes.h
+
+1631147812 g:\programming\agilenes\anes\src\nesemu\apu.h
+
+1629824916 g:\programming\agilenes\anes\src\nesemu\rom\ines.h
+
+1629824916 g:\programming\agilenes\anes\src\nesemu\difines.h
+
+1631147790 g:\programming\agilenes\anes\src\nesemu\mappers\_mappers.h
+
+1637226412 g:\programming\agilenes\anes\src\version.h
+
+1637227443 source:g:\programming\agilenes\anes\src\nesemu\apu.c
+	"NES.h"
+	"APU.h"
+	"DMA.h"
+	"DIFINES.h"
+	"SC_DMC.h"
+	"SC_Noise.h"
+	"SC_Square1.h"
+	"SC_Square2.h"
+	"SC_Triangle.h"
+	"SoundFilters.h"
+
+1629824916 g:\programming\agilenes\anes\src\nesemu\dma.h
+
+1629824916 g:\programming\agilenes\anes\src\nesemu\sc_dmc.h
+
+1629824916 g:\programming\agilenes\anes\src\nesemu\sc_noise.h
+
+1629824916 g:\programming\agilenes\anes\src\nesemu\sc_square1.h
+
+1629824916 g:\programming\agilenes\anes\src\nesemu\sc_square2.h
+
+1629824916 g:\programming\agilenes\anes\src\nesemu\sc_triangle.h
+
+1629824916 g:\programming\agilenes\anes\src\nesemu\soundfilters.h
+
+1629824916 source:g:\programming\agilenes\anes\src\nesemu\colors.c
+	"Colors.h"
+
+1629824916 g:\programming\agilenes\anes\src\nesemu\colors.h
+
+1629828188 source:g:\programming\agilenes\anes\src\nesemu\cpu.c
+	"CPU.h"
+	"Memory.h"
+
+1629824916 g:\programming\agilenes\anes\src\nesemu\cpu.h
+
+1630356227 g:\programming\agilenes\anes\src\nesemu\memory.h
+
+1629824916 source:g:\programming\agilenes\anes\src\nesemu\dma.c
+	"DMA.h"
+	"NES.h"
+	"Memory.h"
+	"APU.h"
+	"SC_DMC.h"
+
+1630019059 source:g:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_mmc5_pcm.c
+	"../NES.h"
+	"../DIFINES.h"
+	"SC_MMC5_PCM.h"
+
+1630001872 g:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_mmc5_pcm.h
+
+1630030485 source:g:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_mmc5_pulse1.c
+	"SC_MMC5_Pulse1.h"
+	"../APU.h"
+
+1630001928 g:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_mmc5_pulse1.h
+
+1630030485 source:g:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_mmc5_pulse2.c
+	"SC_MMC5_Pulse2.h"
+	"../APU.h"
+
+1630001952 g:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_mmc5_pulse2.h
+
+1630371790 source:g:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_vrc6_pulse1.c
+	"SC_VRC6_Pulse1.h"
+	"../APU.h"
+
+1630370744 g:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_vrc6_pulse1.h
+
+1630371803 source:g:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_vrc6_pulse2.c
+	"SC_VRC6_Pulse2.h"
+	"../APU.h"
+
+1630371202 g:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_vrc6_pulse2.h
+
+1630371850 source:g:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_vrc6_sawtooth.c
+	"SC_VRC6_Sawtooth.h"
+	"../APU.h"
+
+1630371408 g:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_vrc6_sawtooth.h
+
+1630371910 source:g:\programming\agilenes\anes\src\nesemu\mappers\mapper000.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1630113697 source:g:\programming\agilenes\anes\src\nesemu\mappers\mapper001.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1629824916 source:g:\programming\agilenes\anes\src\nesemu\mappers\mapper002.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1629824916 source:g:\programming\agilenes\anes\src\nesemu\mappers\mapper003.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1630113710 source:g:\programming\agilenes\anes\src\nesemu\mappers\mapper004.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1631149363 source:g:\programming\agilenes\anes\src\nesemu\mappers\mapper005.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+	"../PPU.h"
+	"../APU.h"
+	"../ExternalSoundChannels/SC_MMC5_PCM.h"
+	"../ExternalSoundChannels/SC_MMC5_Pulse1.h"
+	"../ExternalSoundChannels/SC_MMC5_Pulse2.h"
+
+1629824916 g:\programming\agilenes\anes\src\nesemu\ppu.h
+
+1629824916 source:g:\programming\agilenes\anes\src\nesemu\mappers\mapper007.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1631170809 source:g:\programming\agilenes\anes\src\nesemu\mappers\mapper009.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../PPU.h"
+
+1630363472 source:g:\programming\agilenes\anes\src\nesemu\mappers\mapper010.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1630357113 source:g:\programming\agilenes\anes\src\nesemu\mappers\mapper011.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1630362887 source:g:\programming\agilenes\anes\src\nesemu\mappers\mapper013.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1630364046 source:g:\programming\agilenes\anes\src\nesemu\mappers\mapper015.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1630365204 source:g:\programming\agilenes\anes\src\nesemu\mappers\mapper018.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1630367274 source:g:\programming\agilenes\anes\src\nesemu\mappers\mapper021.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1630367828 source:g:\programming\agilenes\anes\src\nesemu\mappers\mapper022.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1631172093 source:g:\programming\agilenes\anes\src\nesemu\mappers\mapper023.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1631147996 source:g:\programming\agilenes\anes\src\nesemu\mappers\mapper024.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+	"../ExternalSoundChannels/SC_VRC6_Pulse1.h"
+	"../ExternalSoundChannels/SC_VRC6_Pulse2.h"
+	"../ExternalSoundChannels/SC_VRC6_Sawtooth.h"
+
+1630369477 source:g:\programming\agilenes\anes\src\nesemu\mappers\mapper025.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1631147987 source:g:\programming\agilenes\anes\src\nesemu\mappers\mapper026.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+	"../ExternalSoundChannels/SC_VRC6_Pulse1.h"
+	"../ExternalSoundChannels/SC_VRC6_Pulse2.h"
+	"../ExternalSoundChannels/SC_VRC6_Sawtooth.h"
+
+1629824916 source:g:\programming\agilenes\anes\src\nesemu\mappers\mapper071.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1631148902 source:g:\programming\agilenes\anes\src\nesemu\mappersinitiailizer.c
+	"Mappers/_Mappers.h"
+	"MappersInitiailizer.h"
+	"Memory.h"
+	"PPU.h"
+	"NES.h"
+	"APU.h"
+
+1630359998 g:\programming\agilenes\anes\src\nesemu\mappersinitiailizer.h
+
+1631150709 source:g:\programming\agilenes\anes\src\nesemu\memory.c
+	"Memory.h"
+	"PPU.h"
+	"APU.h"
+	"NES.h"
+
+1631149198 source:g:\programming\agilenes\anes\src\nesemu\nes.c
+	"NES.h"
+	"DIFINES.h"
+	"ROM/INES.h"
+	"Mappers/_Mappers.h"
+	"APU.h"
+	"CPU.h"
+	"PPU.h"
+	"DMA.h"
+	"Memory.h"
+	"MappersInitiailizer.h"
+
+1629828580 source:g:\programming\agilenes\anes\src\nesemu\rom\ines.c
+	"INES.h"
+	"../Memory.h"
+	<stdio.h>
+	<unistd.h>
+
+1629824916 source:g:\programming\agilenes\anes\src\nesemu\sc_dmc.c
+	"DIFINES.h"
+	"SC_DMC.h"
+	"DMA.h"
+	"Memory.h"
+	"NES.h"
+	"APU.h"
+
+1629824916 source:g:\programming\agilenes\anes\src\nesemu\sc_noise.c
+	"DIFINES.h"
+	"SC_Noise.h"
+	"APU.h"
+
+1630000317 source:g:\programming\agilenes\anes\src\nesemu\sc_square1.c
+	"SC_Square1.h"
+	"DIFINES.h"
+	"APU.h"
+
+1629824916 source:g:\programming\agilenes\anes\src\nesemu\sc_square2.c
+	"SC_Square2.h"
+	"DIFINES.h"
+	"APU.h"
+
+1629824916 source:g:\programming\agilenes\anes\src\nesemu\sc_triangle.c
+	"SC_Triangle.h"
+	"DIFINES.h"
+	"APU.h"
+
+1629824916 source:g:\programming\agilenes\anes\src\nesemu\soundfilters.c
+	"SoundFilters.h"
+	<math.h>
+
+1637229649 source:g:\programming\agilenes\anes\src\sdlout\sdlaudioout.c
+	"SDLAudioOut.h"
+	"SDLVideoOut.h"
+	"SDL2/SDL.h"
+	"../NesEmu/NES.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607277 g:\programming\sdl2\sdl2-2.0.16\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1629824916 source:g:\programming\agilenes\anes\src\sdlout\sdlinput.c
+	"SDLInput.h"
+	"../NesEmu/APU.h"
+	<stdio.h>
+	"SDL2/SDL.h"
+	"SDL_RENDERERS_DEFINES.h"
+
+1637229397 source:g:\programming\agilenes\anes\src\sdlout\sdlvideoout.c
+	<stdio.h>
+	<string.h>
+	"SDLVideoOut.h"
+	"SDLAudioOut.h"
+	"SDLInput.h"
+	<SDL2/SDL.h>
+	<math.h>
+	"../NesEmu/PPU.h"
+	"../NesEmu/APU.h"
+	"../NesEmu/NES.h"
+	"../VERSION.h"
+
+1637226385 source:g:\programming\agilenes\anes\src\nesemu\ppu.c
+	"PPU.h"
+	"DIFINES.h"
+	"Memory.h"
+	"CompositeVideoColorsGenerator.h"
+
+1637225312 g:\programming\agilenes\anes\src\nesemu\compositevideocolorsgenerator.h
+
+1637225991 source:g:\programming\agilenes\anes\src\nesemu\compositevideocolorsgenerator.c
+	"CompositeVideoColorsGenerator.h"
+	<math.h>
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607235 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1628607235 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1628607235 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1628607235 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\close_code.h
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607235 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1628607235 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607235 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607235 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607235 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1628607235 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607235 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607235 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607235 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607235 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607235 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607235 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607235 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1628607234 g:\programming\sdl2\sdl2-2.0.16\i686-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1629828188 source:h:\programming\agilenes\anes\src\nesemu\cpu.c
+	"CPU.h"
+	"Memory.h"
+
+1643662417 h:\programming\agilenes\anes\src\nesemu\cpu.h
+
+1643662417 h:\programming\agilenes\anes\src\nesemu\memory.h
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\apu.c
+	"NES.h"
+	"APU.h"
+	"DMA.h"
+	"DIFINES.h"
+	"SC_DMC.h"
+	"SC_Noise.h"
+	"SC_Square1.h"
+	"SC_Square2.h"
+	"SC_Triangle.h"
+	"SoundFilters.h"
+
+1643662418 h:\programming\agilenes\anes\src\nesemu\nes.h
+
+1643662417 h:\programming\agilenes\anes\src\nesemu\apu.h
+
+1643662417 h:\programming\agilenes\anes\src\nesemu\dma.h
+
+1643662417 h:\programming\agilenes\anes\src\nesemu\difines.h
+
+1643662417 h:\programming\agilenes\anes\src\nesemu\sc_dmc.h
+
+1643662417 h:\programming\agilenes\anes\src\nesemu\sc_noise.h
+
+1643662417 h:\programming\agilenes\anes\src\nesemu\sc_square1.h
+
+1643662417 h:\programming\agilenes\anes\src\nesemu\sc_square2.h
+
+1643662418 h:\programming\agilenes\anes\src\nesemu\sc_triangle.h
+
+1643662417 h:\programming\agilenes\anes\src\nesemu\soundfilters.h
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\compositevideocolorsgenerator.c
+	"CompositeVideoColorsGenerator.h"
+	<math.h>
+
+1643662418 h:\programming\agilenes\anes\src\nesemu\compositevideocolorsgenerator.h
+
+1643662418 source:h:\programming\agilenes\anes\src\nesemu\dma.c
+	"DMA.h"
+	"NES.h"
+	"Memory.h"
+	"APU.h"
+	"SC_DMC.h"
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_mmc5_pcm.c
+	"../NES.h"
+	"../DIFINES.h"
+	"SC_MMC5_PCM.h"
+
+1643662417 h:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_mmc5_pcm.h
+
+1643662418 source:h:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_mmc5_pulse1.c
+	"SC_MMC5_Pulse1.h"
+	"../APU.h"
+
+1643662417 h:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_mmc5_pulse1.h
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_mmc5_pulse2.c
+	"SC_MMC5_Pulse2.h"
+	"../APU.h"
+
+1643662417 h:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_mmc5_pulse2.h
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_vrc6_pulse1.c
+	"SC_VRC6_Pulse1.h"
+	"../APU.h"
+
+1643662417 h:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_vrc6_pulse1.h
+
+1643662418 source:h:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_vrc6_pulse2.c
+	"SC_VRC6_Pulse2.h"
+	"../APU.h"
+
+1643662417 h:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_vrc6_pulse2.h
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_vrc6_sawtooth.c
+	"SC_VRC6_Sawtooth.h"
+	"../APU.h"
+
+1643662417 h:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_vrc6_sawtooth.h
+
+1643662418 source:h:\programming\agilenes\anes\src\nesemu\mappers\mapper000.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1643662418 h:\programming\agilenes\anes\src\nesemu\mappers\_mappers.h
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\mappers\mapper001.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\mappers\mapper002.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\mappers\mapper003.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\mappers\mapper004.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1643662418 source:h:\programming\agilenes\anes\src\nesemu\mappers\mapper005.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+	"../PPU.h"
+	"../APU.h"
+	"../ExternalSoundChannels/SC_MMC5_PCM.h"
+	"../ExternalSoundChannels/SC_MMC5_Pulse1.h"
+	"../ExternalSoundChannels/SC_MMC5_Pulse2.h"
+
+1643662417 h:\programming\agilenes\anes\src\nesemu\ppu.h
+
+1643662418 source:h:\programming\agilenes\anes\src\nesemu\mappers\mapper007.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\mappers\mapper009.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../PPU.h"
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\mappers\mapper010.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\mappers\mapper011.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\mappers\mapper013.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\mappers\mapper015.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\mappers\mapper018.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\mappers\mapper021.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1643662418 source:h:\programming\agilenes\anes\src\nesemu\mappers\mapper022.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1643662418 source:h:\programming\agilenes\anes\src\nesemu\mappers\mapper023.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\mappers\mapper024.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+	"../ExternalSoundChannels/SC_VRC6_Pulse1.h"
+	"../ExternalSoundChannels/SC_VRC6_Pulse2.h"
+	"../ExternalSoundChannels/SC_VRC6_Sawtooth.h"
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\mappers\mapper025.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\mappers\mapper026.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+	"../ExternalSoundChannels/SC_VRC6_Pulse1.h"
+	"../ExternalSoundChannels/SC_VRC6_Pulse2.h"
+	"../ExternalSoundChannels/SC_VRC6_Sawtooth.h"
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\mappers\mapper071.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\mappersinitiailizer.c
+	"Mappers/_Mappers.h"
+	"MappersInitiailizer.h"
+	"Memory.h"
+	"PPU.h"
+	"NES.h"
+	"APU.h"
+
+1643662417 h:\programming\agilenes\anes\src\nesemu\mappersinitiailizer.h
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\memory.c
+	"Memory.h"
+	"PPU.h"
+	"APU.h"
+	"NES.h"
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\nes.c
+	"NES.h"
+	"DIFINES.h"
+	"ROM/INES.h"
+	"Mappers/_Mappers.h"
+	"APU.h"
+	"CPU.h"
+	"PPU.h"
+	"DMA.h"
+	"Memory.h"
+	"MappersInitiailizer.h"
+
+1643662417 h:\programming\agilenes\anes\src\nesemu\rom\ines.h
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\ppu.c
+	"PPU.h"
+	"DIFINES.h"
+	"Memory.h"
+	"CompositeVideoColorsGenerator.h"
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\rom\ines.c
+	"INES.h"
+	"../Memory.h"
+	<stdio.h>
+	<unistd.h>
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\sc_dmc.c
+	"DIFINES.h"
+	"SC_DMC.h"
+	"DMA.h"
+	"Memory.h"
+	"NES.h"
+	"APU.h"
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\sc_noise.c
+	"DIFINES.h"
+	"SC_Noise.h"
+	"APU.h"
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\sc_square1.c
+	"SC_Square1.h"
+	"DIFINES.h"
+	"APU.h"
+
+1643662418 source:h:\programming\agilenes\anes\src\nesemu\sc_square2.c
+	"SC_Square2.h"
+	"DIFINES.h"
+	"APU.h"
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\sc_triangle.c
+	"SC_Triangle.h"
+	"DIFINES.h"
+	"APU.h"
+
+1643662417 source:h:\programming\agilenes\anes\src\nesemu\soundfilters.c
+	"SoundFilters.h"
+	<math.h>
+
+1643664084 source:h:\programming\agilenes\anes\src\sdlout\sdlaudioout.c
+	"SDLAudioOut.h"
+	"SDLVideoOut.h"
+	"SDL2/SDL.h"
+	"../NesEmu/NES.h"
+
+1643662533 h:\programming\agilenes\anes\src\sdlout\sdlaudioout.h
+
+1643662417 h:\programming\agilenes\anes\src\sdlout\sdlvideoout.h
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1643662418 source:h:\programming\agilenes\anes\src\sdlout\sdlinput.c
+	"SDLInput.h"
+	"../NesEmu/APU.h"
+	<stdio.h>
+	"SDL2/SDL.h"
+	"SDL_RENDERERS_DEFINES.h"
+
+1643662417 h:\programming\agilenes\anes\src\sdlout\sdlinput.h
+
+1643662417 h:\programming\agilenes\anes\src\sdlout\sdl_renderers_defines.h
+
+1643664545 source:h:\programming\agilenes\anes\src\sdlout\sdlvideoout.c
+	<stdio.h>
+	<string.h>
+	"SDLVideoOut.h"
+	"SDLAudioOut.h"
+	"SDLInput.h"
+	<SDL2/SDL.h>
+	<math.h>
+	"../NesEmu/PPU.h"
+	"../NesEmu/APU.h"
+	"../NesEmu/NES.h"
+	"../VERSION.h"
+
+1643664838 h:\programming\agilenes\anes\src\version.h
+
+1643665309 source:h:\programming\agilenes\anes\src\main.c
+	"SDLOut/SDLVideoOut.h"
+	"SDLOut/SDLAudioOut.h"
+	"SDLOut/SDLInput.h"
+	"SDLOut/SDL_RENDERERS_DEFINES.h"
+	"NesEmu/NES.h"
+	"NesEmu/APU.h"
+	"NesEmu/ROM/INES.h"
+	"NesEmu/DIFINES.h"
+	"NesEmu/Mappers/_Mappers.h"
+	"VERSION.h"
+
+1645593260 source:e:\programming\agilenes\anes\src\main.c
+	"SDLOut/SDLVideoOut.h"
+	"SDLOut/SDLAudioOut.h"
+	"SDLOut/SDLInput.h"
+	"SDLOut/SDL_RENDERERS_DEFINES.h"
+	"NesEmu/NES.h"
+	"NesEmu/APU.h"
+	"NesEmu/ROM/INES.h"
+	"NesEmu/DIFINES.h"
+	"NesEmu/Mappers/_Mappers.h"
+	"VERSION.h"
+
+1643662417 e:\programming\agilenes\anes\src\sdlout\sdlvideoout.h
+
+1645589961 e:\programming\agilenes\anes\src\sdlout\sdlaudioout.h
+
+1643662417 e:\programming\agilenes\anes\src\sdlout\sdlinput.h
+
+1643662417 e:\programming\agilenes\anes\src\sdlout\sdl_renderers_defines.h
+
+1643662418 e:\programming\agilenes\anes\src\nesemu\nes.h
+
+1645589461 e:\programming\agilenes\anes\src\nesemu\apu.h
+
+1643662417 e:\programming\agilenes\anes\src\nesemu\rom\ines.h
+
+1643662417 e:\programming\agilenes\anes\src\nesemu\difines.h
+
+1643662418 e:\programming\agilenes\anes\src\nesemu\mappers\_mappers.h
+
+1645594210 e:\programming\agilenes\anes\src\version.h
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\compositevideocolorsgenerator.c
+	"CompositeVideoColorsGenerator.h"
+	<math.h>
+
+1643662418 e:\programming\agilenes\anes\src\nesemu\compositevideocolorsgenerator.h
+
+1629828188 source:e:\programming\agilenes\anes\src\nesemu\cpu.c
+	"CPU.h"
+	"Memory.h"
+
+1643662417 e:\programming\agilenes\anes\src\nesemu\cpu.h
+
+1643662417 e:\programming\agilenes\anes\src\nesemu\memory.h
+
+1643662418 source:e:\programming\agilenes\anes\src\nesemu\dma.c
+	"DMA.h"
+	"NES.h"
+	"Memory.h"
+	"APU.h"
+	"SC_DMC.h"
+
+1643662417 e:\programming\agilenes\anes\src\nesemu\dma.h
+
+1643662417 e:\programming\agilenes\anes\src\nesemu\sc_dmc.h
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_mmc5_pcm.c
+	"../NES.h"
+	"../DIFINES.h"
+	"SC_MMC5_PCM.h"
+
+1643662417 e:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_mmc5_pcm.h
+
+1643662418 source:e:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_mmc5_pulse1.c
+	"SC_MMC5_Pulse1.h"
+	"../APU.h"
+
+1643662417 e:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_mmc5_pulse1.h
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_mmc5_pulse2.c
+	"SC_MMC5_Pulse2.h"
+	"../APU.h"
+
+1643662417 e:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_mmc5_pulse2.h
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_vrc6_pulse1.c
+	"SC_VRC6_Pulse1.h"
+	"../APU.h"
+
+1643662417 e:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_vrc6_pulse1.h
+
+1643662418 source:e:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_vrc6_pulse2.c
+	"SC_VRC6_Pulse2.h"
+	"../APU.h"
+
+1643662417 e:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_vrc6_pulse2.h
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_vrc6_sawtooth.c
+	"SC_VRC6_Sawtooth.h"
+	"../APU.h"
+
+1643662417 e:\programming\agilenes\anes\src\nesemu\externalsoundchannels\sc_vrc6_sawtooth.h
+
+1643662418 source:e:\programming\agilenes\anes\src\nesemu\mappers\mapper000.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\mappers\mapper001.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\mappers\mapper002.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\mappers\mapper003.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\mappers\mapper004.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1643662418 source:e:\programming\agilenes\anes\src\nesemu\mappers\mapper005.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+	"../PPU.h"
+	"../APU.h"
+	"../ExternalSoundChannels/SC_MMC5_PCM.h"
+	"../ExternalSoundChannels/SC_MMC5_Pulse1.h"
+	"../ExternalSoundChannels/SC_MMC5_Pulse2.h"
+
+1643662417 e:\programming\agilenes\anes\src\nesemu\ppu.h
+
+1643662418 source:e:\programming\agilenes\anes\src\nesemu\mappers\mapper007.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\mappers\mapper009.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../PPU.h"
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\mappers\mapper010.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\mappers\mapper011.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\mappers\mapper013.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\mappers\mapper015.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\mappers\mapper018.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\mappers\mapper021.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1643662418 source:e:\programming\agilenes\anes\src\nesemu\mappers\mapper022.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1643662418 source:e:\programming\agilenes\anes\src\nesemu\mappers\mapper023.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\mappers\mapper024.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+	"../ExternalSoundChannels/SC_VRC6_Pulse1.h"
+	"../ExternalSoundChannels/SC_VRC6_Pulse2.h"
+	"../ExternalSoundChannels/SC_VRC6_Sawtooth.h"
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\mappers\mapper025.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\mappers\mapper026.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+	"../NES.h"
+	"../ExternalSoundChannels/SC_VRC6_Pulse1.h"
+	"../ExternalSoundChannels/SC_VRC6_Pulse2.h"
+	"../ExternalSoundChannels/SC_VRC6_Sawtooth.h"
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\mappers\mapper071.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\mappersinitiailizer.c
+	"Mappers/_Mappers.h"
+	"MappersInitiailizer.h"
+	"Memory.h"
+	"PPU.h"
+	"NES.h"
+	"APU.h"
+
+1643662417 e:\programming\agilenes\anes\src\nesemu\mappersinitiailizer.h
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\memory.c
+	"Memory.h"
+	"PPU.h"
+	"APU.h"
+	"NES.h"
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\nes.c
+	"NES.h"
+	"DIFINES.h"
+	"ROM/INES.h"
+	"Mappers/_Mappers.h"
+	"APU.h"
+	"CPU.h"
+	"PPU.h"
+	"DMA.h"
+	"Memory.h"
+	"MappersInitiailizer.h"
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\ppu.c
+	"PPU.h"
+	"DIFINES.h"
+	"Memory.h"
+	"CompositeVideoColorsGenerator.h"
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\rom\ines.c
+	"INES.h"
+	"../Memory.h"
+	<stdio.h>
+	<unistd.h>
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\sc_dmc.c
+	"DIFINES.h"
+	"SC_DMC.h"
+	"DMA.h"
+	"Memory.h"
+	"NES.h"
+	"APU.h"
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\sc_noise.c
+	"DIFINES.h"
+	"SC_Noise.h"
+	"APU.h"
+
+1643662417 e:\programming\agilenes\anes\src\nesemu\sc_noise.h
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\sc_square1.c
+	"SC_Square1.h"
+	"DIFINES.h"
+	"APU.h"
+
+1643662417 e:\programming\agilenes\anes\src\nesemu\sc_square1.h
+
+1643662418 source:e:\programming\agilenes\anes\src\nesemu\sc_square2.c
+	"SC_Square2.h"
+	"DIFINES.h"
+	"APU.h"
+
+1643662417 e:\programming\agilenes\anes\src\nesemu\sc_square2.h
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\sc_triangle.c
+	"SC_Triangle.h"
+	"DIFINES.h"
+	"APU.h"
+
+1643662418 e:\programming\agilenes\anes\src\nesemu\sc_triangle.h
+
+1643662417 source:e:\programming\agilenes\anes\src\nesemu\soundfilters.c
+	"SoundFilters.h"
+	<math.h>
+
+1643662417 e:\programming\agilenes\anes\src\nesemu\soundfilters.h
+
+1645592243 source:e:\programming\agilenes\anes\src\sdlout\sdlaudioout.c
+	"SDLAudioOut.h"
+	"SDLVideoOut.h"
+	"SDL2/SDL.h"
+	"../NesEmu/NES.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\close_code.h
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849041 e:\programming\sdl2\sdl2-2.0.20\i686-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1643662418 source:e:\programming\agilenes\anes\src\sdlout\sdlinput.c
+	"SDLInput.h"
+	"../NesEmu/APU.h"
+	<stdio.h>
+	"SDL2/SDL.h"
+	"SDL_RENDERERS_DEFINES.h"
+
+1643894702 source:e:\programming\agilenes\anes\src\sdlout\sdlvideoout.c
+	<stdio.h>
+	<string.h>
+	"SDLVideoOut.h"
+	"SDLAudioOut.h"
+	"SDLInput.h"
+	<SDL2/SDL.h>
+	<math.h>
+	"../NesEmu/PPU.h"
+	"../NesEmu/APU.h"
+	"../NesEmu/NES.h"
+	"../VERSION.h"
+
+1645590423 source:e:\programming\agilenes\anes\src\nesemu\apu.c
+	"NES.h"
+	"APU.h"
+	"DMA.h"
+	"DIFINES.h"
+	"SC_DMC.h"
+	"SC_Noise.h"
+	"SC_Square1.h"
+	"SC_Square2.h"
+	"SC_Triangle.h"
+	"SoundFilters.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 e:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+

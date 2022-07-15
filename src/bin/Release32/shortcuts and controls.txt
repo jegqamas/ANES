@@ -1,0 +1,63 @@
+My C Nes shortcuts and default controls
+---------------------
+
+## Shortcuts:
+
+Keyboard  | What it does
+----------+--------------
+F1        | toggle show fps on/off
+F3        | soft reset
+F4        | hard reset
+F10       | toggle turbo (turn speed limit to target fps on/off, off means run in maximum speed).
+F11       | toggle keep-aspect-ratio on/off
+----------+--------------
+
+## Default keyboard mapping (for player 1 or 2)
+
+Nes     | Keyboard
+--------+-----------
+Up      | Up-Arrow
+Left    | Left-Arrow
+Right   | Right-Arrow
+Down    | Down-Arrow
+A       | C
+B       | X
+Turbo A | D
+Turbo B | S
+Start   | B
+Select  | V
+--------+-----------
+
+## Default game controler mapping (for player 1 or 2)
+
+Nes     | Button on controller
+--------+---------------------
+Up      | DPAD-Up
+Left    | DPAD-Left
+Right   | DPAD-Right
+Down    | DPAD-Down
+A       | A
+B       | X
+Turbo A | B
+Turbo B | Y
+Start   | Start
+Select  | Back
+--------+-----------
+
+## IMPORTANT NOTES:
+
+- Player 1 and player 2 cannot use keyboard at the same time, for using with 2 players, either one player use keyboard and another use game controller, 
+  OR both uses game controllers but one of player 1 and another of player 2.
+  To config controls for each player, please see commandlines file.
+- If player 1/player 2 is set to use game controller and that game controller is not connected, simply that player controls will be disabled.
+- Player 2 is not configured (disabled) by default.
+- Keyboard/Game controller layout (mapping) is fixed and cannot be changed.
+
+
+## END OF DOCUMENT
+
+Written by Alaa Ibrahim Hadid.
+For My C Nes version 1.0.
+Last edit 27 May 2021 07:01
+----------------------------
+

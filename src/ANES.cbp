@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ANES" />
+		<Option makefile="MakeFile" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ANES" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ANES" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Option projectLinkerOptionsRelation="1" />
+				<Option projectIncludeDirsRelation="1" />
+				<Option projectLibDirsRelation="1" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add directory="../../../SDL2/SDL2-2.0.20/x86_64-w64-mingw32/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lSDL2main -lSDL2" />
+					<Add directory="../../../SDL2/SDL2-2.0.20/x86_64-w64-mingw32/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release32">
+				<Option output="bin/Release32/ANES" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Option projectLinkerOptionsRelation="1" />
+				<Option projectIncludeDirsRelation="1" />
+				<Option projectLibDirsRelation="1" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-Wall" />
+					<Add directory="../../../SDL2/SDL2-2.0.20/i686-w64-mingw32/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lSDL2main -lSDL2" />
+					<Add directory="../../../SDL2/SDL2-2.0.20/i686-w64-mingw32/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-march=i686" />
+			<Add option="-Wall" />
+			<Add directory="../../../SDL2/SDL2-2.0.20/x86_64-w64-mingw32/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lSDL2main -lSDL2" />
+			<Add directory="../../SDL2/SDL2-2.0.16/x86_64-w64-mingw32/lib" />
+		</Linker>
+		<Unit filename="CHANGE_LOG">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="NesEmu/APU.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/APU.h" />
+		<Unit filename="NesEmu/CPU.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/CPU.h" />
+		<Unit filename="NesEmu/CompositeVideoColorsGenerator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/CompositeVideoColorsGenerator.h" />
+		<Unit filename="NesEmu/DIFINES.h" />
+		<Unit filename="NesEmu/DMA.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/DMA.h" />
+		<Unit filename="NesEmu/ExternalSoundChannels/SC_MMC5_PCM.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/ExternalSoundChannels/SC_MMC5_PCM.h" />
+		<Unit filename="NesEmu/ExternalSoundChannels/SC_MMC5_Pulse1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/ExternalSoundChannels/SC_MMC5_Pulse1.h" />
+		<Unit filename="NesEmu/ExternalSoundChannels/SC_MMC5_Pulse2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/ExternalSoundChannels/SC_MMC5_Pulse2.h" />
+		<Unit filename="NesEmu/ExternalSoundChannels/SC_VRC6_Pulse1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/ExternalSoundChannels/SC_VRC6_Pulse1.h" />
+		<Unit filename="NesEmu/ExternalSoundChannels/SC_VRC6_Pulse2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/ExternalSoundChannels/SC_VRC6_Pulse2.h" />
+		<Unit filename="NesEmu/ExternalSoundChannels/SC_VRC6_Sawtooth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/ExternalSoundChannels/SC_VRC6_Sawtooth.h" />
+		<Unit filename="NesEmu/MappersInitiailizer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/MappersInitiailizer.h" />
+		<Unit filename="NesEmu/Mappers/Mapper000.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/Mappers/Mapper001.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/Mappers/Mapper002.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/Mappers/Mapper003.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/Mappers/Mapper004.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/Mappers/Mapper005.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/Mappers/Mapper007.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/Mappers/Mapper009.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/Mappers/Mapper010.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/Mappers/Mapper011.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/Mappers/Mapper013.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/Mappers/Mapper015.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/Mappers/Mapper018.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/Mappers/Mapper021.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/Mappers/Mapper022.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/Mappers/Mapper023.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/Mappers/Mapper024.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/Mappers/Mapper025.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/Mappers/Mapper026.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/Mappers/Mapper071.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/Mappers/_Mappers.h" />
+		<Unit filename="NesEmu/Memory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/Memory.h" />
+		<Unit filename="NesEmu/NES.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/NES.h" />
+		<Unit filename="NesEmu/PPU.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/PPU.h" />
+		<Unit filename="NesEmu/ROM/INES.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/ROM/INES.h" />
+		<Unit filename="NesEmu/SC_DMC.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/SC_DMC.h" />
+		<Unit filename="NesEmu/SC_Noise.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/SC_Noise.h" />
+		<Unit filename="NesEmu/SC_Square1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/SC_Square1.h" />
+		<Unit filename="NesEmu/SC_Square2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/SC_Square2.h" />
+		<Unit filename="NesEmu/SC_Triangle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/SC_Triangle.h" />
+		<Unit filename="NesEmu/SoundFilters.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NesEmu/SoundFilters.h" />
+		<Unit filename="SDLOut/SDLAudioOut.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SDLOut/SDLAudioOut.h" />
+		<Unit filename="SDLOut/SDLInput.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SDLOut/SDLInput.h" />
+		<Unit filename="SDLOut/SDLVideoOut.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SDLOut/SDLVideoOut.h" />
+		<Unit filename="SDLOut/SDL_RENDERERS_DEFINES.h" />
+		<Unit filename="VERSION.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
