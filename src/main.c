@@ -63,7 +63,7 @@ int main(int argc,char* args[])
     printf(" along with this program.If not, see<http://www.gnu.org/licenses/>. \n");
     printf(" \n");
     printf("ANES is based on My Nes, A Nintendo Entertainment System / Family Computer (Nes/Famicom) Emulator written in C#. \n");
-    printf("My Nes is lisenced under GNU General Public License 3 as well. Please see <https://github.com/alaahadid/My-Nes> for more details. \n");
+    printf("My Nes is lisenced under GNU General Public License 3 as well. Please see <https://github.com/jegqamas/My-Nes> for more details. \n");
     printf(" \n");
     printf("NES is either a trademark or registered trademark of Nintendo of America Inc. \n");
     printf("Famicom is either a trademark or registered trademark of Nintendo Co., LTD. \n");
