@@ -251,7 +251,7 @@ void VideoOUT_Run()
 // Run the video on thread one frame.
 void VideoOUT_RunThreaded()
 {
-    fps_time_start = SDL_GetTicks();
+    fps_time_start = SDL_GetTicks64();
     if (!VideoOUT_EMU_SIGNAL_ON)// Emu is off, draw snow.
     {
         for (int i = 0; i < buffer_size; i++)
@@ -364,7 +364,7 @@ void VideoOUT_RunThreaded()
     VideoOUT_CheckEvents();
 
     // 5 HANDLE FPS limit
-    fps_time_token = SDL_GetTicks() - fps_time_start;
+    fps_time_token = SDL_GetTicks64() - fps_time_start;
 
     if (VideoOUT_ENABLE_SPEED_LIMIT)
     {
@@ -380,7 +380,7 @@ void VideoOUT_RunThreaded()
             }
         }
     }
-    fps_time_last = SDL_GetTicks();
+    fps_time_last = SDL_GetTicks64();
     fps_time_frame_time = fps_time_last - fps_time_start;
 
     if (VideoOUT_SHOW_FPS)
@@ -391,9 +391,9 @@ void VideoOUT_RunThreaded()
         fps_count++;
 
         // Set FPS at one second time
-        if ( (SDL_GetTicks() - timer_time_start) >=1000)
+        if ( (SDL_GetTicks64() - timer_time_start) >=1000)
         {
-            timer_time_start = SDL_GetTicks();
+            timer_time_start = SDL_GetTicks64();
 
             int vid_fps = 0;
             if (fps_count > 0)

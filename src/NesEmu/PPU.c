@@ -263,10 +263,10 @@ void PPUHardReset(int tv_format)
     //Color_Saturation_Add = 21;
     //GenerrateColors(ppu_colors, ppu_tv_format);
 
-    CVC_Saturation = 1.1F;// 1.2F
+    CVC_Saturation = 1.5F;// 1.2F
     CVC_Hue_tweak = +0.15f;
-    CVC_Contrast = 0.8F;
-    CVC_Brightness = 1.11F;//1.122F
+    CVC_Contrast = 1.2F;
+    CVC_Brightness = 1.07F;//1.122F
     CVC_Gamma = 1.8F;
     GenerrateCompisteVideoColors(ppu_colors, ppu_tv_format);
 }

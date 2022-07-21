@@ -2,21 +2,475 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Release" />
+	<File name="SDLOut\SDL_RENDERERS_DEFINES.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\SC_Square2.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\ExternalSoundChannels\SC_MMC5_Pulse1.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="27" />
+			<Collapse line="34" />
+			<Collapse line="59" />
+			<Collapse line="82" />
+			<Collapse line="85" />
+			<Collapse line="89" />
+			<Collapse line="97" />
+			<Collapse line="99" />
+			<Collapse line="104" />
+			<Collapse line="106" />
+			<Collapse line="112" />
+			<Collapse line="116" />
+			<Collapse line="129" />
+			<Collapse line="139" />
+			<Collapse line="143" />
+			<Collapse line="147" />
+			<Collapse line="156" />
+			<Collapse line="162" />
+		</Folding>
+	</File>
 	<File name="SDLOut\SDLVideoOut.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="148" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="NesEmu\NES.c" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="NesEmu\Mappers\Mapper021.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="3396" topLine="72" />
+			<Cursor1 position="148" topLine="3" />
 		</Cursor>
 		<Folding>
-			<Collapse line="39" />
-			<Collapse line="100" />
+			<Collapse line="38" />
+			<Collapse line="56" />
+			<Collapse line="65" />
+			<Collapse line="67" />
+			<Collapse line="87" />
+			<Collapse line="101" />
+			<Collapse line="207" />
+			<Collapse line="212" />
+			<Collapse line="247" />
+			<Collapse line="250" />
 		</Folding>
 	</File>
+	<File name="SDLOut\SDLAudioOut.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1489" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\PPU.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="32" />
+		</Folding>
+	</File>
+	<File name="NesEmu\DIFINES.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\SC_Triangle.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\ROM\INES.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\MappersInitiailizer.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\CompositeVideoColorsGenerator.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3916" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\Mappers\Mapper024.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="52" />
+			<Collapse line="54" />
+			<Collapse line="89" />
+			<Collapse line="91" />
+			<Collapse line="141" />
+			<Collapse line="146" />
+			<Collapse line="160" />
+			<Collapse line="162" />
+			<Collapse line="164" />
+			<Collapse line="168" />
+			<Collapse line="172" />
+			<Collapse line="179" />
+			<Collapse line="182" />
+			<Collapse line="205" />
+		</Folding>
+	</File>
+	<File name="NesEmu\ExternalSoundChannels\SC_VRC6_Sawtooth.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\CPU.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7925" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\ROM\INES.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="3" />
+		</Cursor>
+		<Folding>
+			<Collapse line="136" />
+			<Collapse line="144" />
+		</Folding>
+	</File>
+	<File name="NesEmu\ExternalSoundChannels\SC_VRC6_Pulse1.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="36" />
+			<Collapse line="54" />
+			<Collapse line="75" />
+			<Collapse line="79" />
+		</Folding>
+	</File>
+	<File name="NesEmu\APU.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="21023" topLine="368" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\Mappers\Mapper071.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\ExternalSoundChannels\SC_MMC5_Pulse1.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+	</File>
 	<File name="NesEmu\ExternalSoundChannels\SC_MMC5_PCM.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\SC_Square2.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\PPU.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9834" topLine="148" />
+		</Cursor>
+		<Folding>
+			<Collapse line="28" />
+			<Collapse line="157" />
+			<Collapse line="161" />
+			<Collapse line="165" />
+			<Collapse line="169" />
+			<Collapse line="174" />
+			<Collapse line="180" />
+			<Collapse line="182" />
+			<Collapse line="192" />
+			<Collapse line="194" />
+			<Collapse line="201" />
+			<Collapse line="208" />
+			<Collapse line="213" />
+			<Collapse line="224" />
+			<Collapse line="275" />
+			<Collapse line="284" />
+			<Collapse line="288" />
+			<Collapse line="298" />
+			<Collapse line="308" />
+			<Collapse line="315" />
+			<Collapse line="319" />
+			<Collapse line="323" />
+			<Collapse line="325" />
+			<Collapse line="334" />
+			<Collapse line="340" />
+			<Collapse line="352" />
+			<Collapse line="356" />
+			<Collapse line="360" />
+			<Collapse line="368" />
+			<Collapse line="373" />
+			<Collapse line="375" />
+			<Collapse line="381" />
+			<Collapse line="383" />
+			<Collapse line="387" />
+			<Collapse line="390" />
+			<Collapse line="394" />
+			<Collapse line="414" />
+			<Collapse line="419" />
+			<Collapse line="423" />
+			<Collapse line="433" />
+			<Collapse line="435" />
+			<Collapse line="448" />
+			<Collapse line="450" />
+			<Collapse line="457" />
+			<Collapse line="459" />
+			<Collapse line="467" />
+			<Collapse line="474" />
+			<Collapse line="483" />
+			<Collapse line="489" />
+			<Collapse line="494" />
+			<Collapse line="500" />
+			<Collapse line="506" />
+			<Collapse line="512" />
+			<Collapse line="517" />
+			<Collapse line="523" />
+			<Collapse line="533" />
+			<Collapse line="536" />
+			<Collapse line="540" />
+			<Collapse line="544" />
+			<Collapse line="558" />
+			<Collapse line="568" />
+			<Collapse line="577" />
+			<Collapse line="586" />
+			<Collapse line="591" />
+			<Collapse line="597" />
+			<Collapse line="607" />
+			<Collapse line="612" />
+			<Collapse line="627" />
+			<Collapse line="629" />
+			<Collapse line="633" />
+			<Collapse line="637" />
+			<Collapse line="656" />
+			<Collapse line="664" />
+			<Collapse line="669" />
+			<Collapse line="673" />
+			<Collapse line="678" />
+			<Collapse line="687" />
+			<Collapse line="691" />
+			<Collapse line="698" />
+			<Collapse line="704" />
+			<Collapse line="710" />
+			<Collapse line="719" />
+			<Collapse line="725" />
+			<Collapse line="730" />
+			<Collapse line="736" />
+			<Collapse line="741" />
+			<Collapse line="747" />
+			<Collapse line="753" />
+			<Collapse line="762" />
+			<Collapse line="767" />
+			<Collapse line="772" />
+			<Collapse line="776" />
+			<Collapse line="781" />
+			<Collapse line="787" />
+			<Collapse line="794" />
+			<Collapse line="822" />
+			<Collapse line="829" />
+			<Collapse line="835" />
+			<Collapse line="848" />
+			<Collapse line="858" />
+			<Collapse line="865" />
+			<Collapse line="867" />
+			<Collapse line="879" />
+			<Collapse line="884" />
+			<Collapse line="889" />
+			<Collapse line="895" />
+			<Collapse line="900" />
+			<Collapse line="904" />
+			<Collapse line="912" />
+			<Collapse line="914" />
+			<Collapse line="918" />
+			<Collapse line="922" />
+			<Collapse line="926" />
+			<Collapse line="931" />
+			<Collapse line="940" />
+			<Collapse line="944" />
+			<Collapse line="954" />
+			<Collapse line="961" />
+			<Collapse line="964" />
+			<Collapse line="980" />
+			<Collapse line="988" />
+			<Collapse line="994" />
+			<Collapse line="998" />
+			<Collapse line="1002" />
+			<Collapse line="1011" />
+			<Collapse line="1024" />
+			<Collapse line="1041" />
+			<Collapse line="1045" />
+			<Collapse line="1050" />
+			<Collapse line="1055" />
+			<Collapse line="1062" />
+			<Collapse line="1070" />
+		</Folding>
+	</File>
+	<File name="NesEmu\Mappers\Mapper002.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\DMA.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\Mappers\Mapper022.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="37" />
+			<Collapse line="39" />
+			<Collapse line="50" />
+			<Collapse line="52" />
+		</Folding>
+	</File>
+	<File name="NesEmu\Mappers\Mapper000.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\Memory.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\Mappers\Mapper013.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\SC_DMC.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\ExternalSoundChannels\SC_MMC5_Pulse2.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="3" />
+		</Cursor>
+		<Folding>
+			<Collapse line="27" />
+			<Collapse line="34" />
+			<Collapse line="77" />
+			<Collapse line="89" />
+			<Collapse line="99" />
+			<Collapse line="106" />
+			<Collapse line="112" />
+			<Collapse line="116" />
+			<Collapse line="147" />
+			<Collapse line="162" />
+		</Folding>
+	</File>
+	<File name="VERSION.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1313" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\Mappers\Mapper023.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\Mappers\Mapper009.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="36" />
+			<Collapse line="54" />
+			<Collapse line="59" />
+			<Collapse line="66" />
+			<Collapse line="73" />
+			<Collapse line="80" />
+			<Collapse line="87" />
+		</Folding>
+	</File>
+	<File name="NesEmu\SoundFilters.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1623" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="27" />
+		</Folding>
+	</File>
+	<File name="NesEmu\Mappers\Mapper004.c" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="47" />
+			<Collapse line="61" />
+			<Collapse line="68" />
+			<Collapse line="70" />
+			<Collapse line="80" />
+			<Collapse line="91" />
+			<Collapse line="118" />
+			<Collapse line="120" />
+			<Collapse line="122" />
+			<Collapse line="131" />
+			<Collapse line="133" />
+			<Collapse line="140" />
+			<Collapse line="149" />
+			<Collapse line="159" />
+			<Collapse line="161" />
+			<Collapse line="167" />
+			<Collapse line="190" />
+			<Collapse line="194" />
+			<Collapse line="198" />
+			<Collapse line="200" />
+			<Collapse line="202" />
+			<Collapse line="209" />
+			<Collapse line="211" />
+			<Collapse line="213" />
+		</Folding>
+	</File>
+	<File name="main.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8991" topLine="45" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\ExternalSoundChannels\SC_VRC6_Sawtooth.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\SC_Square1.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\ExternalSoundChannels\SC_MMC5_Pulse2.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="SDLOut\SDLVideoOut.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="14740" topLine="181" />
+		</Cursor>
+		<Folding>
+			<Collapse line="441" />
+			<Collapse line="505" />
+			<Collapse line="531" />
+			<Collapse line="541" />
+			<Collapse line="550" />
+		</Folding>
+	</File>
+	<File name="NesEmu\NES.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1189" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\DMA.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="148" topLine="0" />
 		</Cursor>
@@ -31,9 +485,76 @@
 			<Cursor1 position="148" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="NesEmu\MappersInitiailizer.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="NesEmu\Mappers\Mapper001.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\CompositeVideoColorsGenerator.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\SC_Triangle.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\SC_DMC.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="51" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\MappersInitiailizer.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\CPU.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\SC_Square1.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="3" />
+		</Cursor>
+		<Folding>
+			<Collapse line="27" />
+			<Collapse line="34" />
+			<Collapse line="66" />
+			<Collapse line="92" />
+			<Collapse line="97" />
+			<Collapse line="100" />
+			<Collapse line="104" />
+			<Collapse line="118" />
+			<Collapse line="120" />
+			<Collapse line="123" />
+			<Collapse line="126" />
+			<Collapse line="134" />
+			<Collapse line="137" />
+			<Collapse line="144" />
+			<Collapse line="150" />
+			<Collapse line="152" />
+			<Collapse line="158" />
+			<Collapse line="162" />
+			<Collapse line="174" />
+			<Collapse line="186" />
+			<Collapse line="199" />
+			<Collapse line="207" />
+			<Collapse line="215" />
+			<Collapse line="227" />
+			<Collapse line="233" />
+		</Folding>
+	</File>
+	<File name="NesEmu\ExternalSoundChannels\SC_VRC6_Pulse2.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="CHANGE_LOG" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="85" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="SDLOut\SDLInput.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -59,35 +580,32 @@
 			<Collapse line="351" />
 		</Folding>
 	</File>
-	<File name="NesEmu\Memory.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="3" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\ExternalSoundChannels\SC_VRC6_Sawtooth.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="NesEmu\SC_Noise.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="148" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="NesEmu\SoundFilters.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1623" topLine="0" />
-		</Cursor>
-		<Folding>
-			<Collapse line="27" />
-		</Folding>
-	</File>
-	<File name="NesEmu\Memory.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="4538" topLine="87" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\ExternalSoundChannels\SC_VRC6_Pulse2.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="NesEmu\Mappers\Mapper011.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="148" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="NesEmu\SC_DMC.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="NesEmu\APU.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1290" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\SC_Noise.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\Mappers\Mapper015.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="148" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="NesEmu\ExternalSoundChannels\SC_MMC5_PCM.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="148" topLine="0" />
 		</Cursor>
@@ -125,112 +643,9 @@
 			<Collapse line="79" />
 		</Folding>
 	</File>
-	<File name="NesEmu\Mappers\Mapper022.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-		<Folding>
-			<Collapse line="37" />
-			<Collapse line="39" />
-			<Collapse line="50" />
-			<Collapse line="52" />
-		</Folding>
-	</File>
-	<File name="CHANGE_LOG" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="40" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\Mappers\Mapper009.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-		<Folding>
-			<Collapse line="36" />
-			<Collapse line="54" />
-			<Collapse line="59" />
-			<Collapse line="66" />
-			<Collapse line="73" />
-			<Collapse line="80" />
-			<Collapse line="87" />
-		</Folding>
-	</File>
-	<File name="NesEmu\SC_Triangle.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\ExternalSoundChannels\SC_VRC6_Pulse1.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-		<Folding>
-			<Collapse line="36" />
-			<Collapse line="54" />
-			<Collapse line="75" />
-			<Collapse line="79" />
-		</Folding>
-	</File>
-	<File name="VERSION.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1684" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\ROM\INES.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="NesEmu\Mappers\Mapper018.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="148" topLine="3" />
-		</Cursor>
-		<Folding>
-			<Collapse line="136" />
-			<Collapse line="144" />
-		</Folding>
-	</File>
-	<File name="NesEmu\PPU.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-		<Folding>
-			<Collapse line="32" />
-		</Folding>
-	</File>
-	<File name="NesEmu\Mappers\Mapper023.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\ROM\INES.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\Mappers\Mapper007.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\ExternalSoundChannels\SC_MMC5_PCM.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\SC_Noise.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\Mappers\Mapper013.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\DIFINES.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="3" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\SC_Square1.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="NesEmu\Mappers\Mapper005.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -326,120 +741,26 @@
 			<Collapse line="736" />
 		</Folding>
 	</File>
-	<File name="NesEmu\CPU.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="NesEmu\NES.c" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="7925" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\SC_Triangle.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\Mappers\Mapper004.c" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
+			<Cursor1 position="2142" topLine="15" />
 		</Cursor>
 		<Folding>
-			<Collapse line="47" />
-			<Collapse line="61" />
-			<Collapse line="68" />
-			<Collapse line="70" />
-			<Collapse line="80" />
-			<Collapse line="91" />
-			<Collapse line="118" />
-			<Collapse line="120" />
-			<Collapse line="122" />
-			<Collapse line="131" />
-			<Collapse line="133" />
-			<Collapse line="140" />
-			<Collapse line="149" />
-			<Collapse line="159" />
-			<Collapse line="161" />
-			<Collapse line="167" />
-			<Collapse line="190" />
-			<Collapse line="194" />
-			<Collapse line="198" />
-			<Collapse line="200" />
-			<Collapse line="202" />
-			<Collapse line="209" />
-			<Collapse line="211" />
-			<Collapse line="213" />
+			<Collapse line="39" />
+			<Collapse line="100" />
 		</Folding>
 	</File>
-	<File name="NesEmu\CompositeVideoColorsGenerator.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="NesEmu\ExternalSoundChannels\SC_VRC6_Pulse1.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="148" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="SDLOut\SDL_RENDERERS_DEFINES.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="NesEmu\Memory.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="148" topLine="0" />
+			<Cursor1 position="4860" topLine="87" />
 		</Cursor>
 	</File>
-	<File name="NesEmu\Mappers\Mapper002.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\ExternalSoundChannels\SC_MMC5_Pulse2.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="3" />
-		</Cursor>
-		<Folding>
-			<Collapse line="27" />
-			<Collapse line="34" />
-			<Collapse line="77" />
-			<Collapse line="89" />
-			<Collapse line="99" />
-			<Collapse line="106" />
-			<Collapse line="112" />
-			<Collapse line="116" />
-			<Collapse line="147" />
-			<Collapse line="162" />
-		</Folding>
-	</File>
-	<File name="SDLOut\SDLVideoOut.c" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2388" topLine="29" />
-		</Cursor>
-		<Folding>
-			<Collapse line="294" />
-		</Folding>
-	</File>
-	<File name="NesEmu\Mappers\Mapper003.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\APU.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1473" topLine="666" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\PPU.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="9834" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\Mappers\Mapper021.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="3" />
-		</Cursor>
-		<Folding>
-			<Collapse line="38" />
-			<Collapse line="56" />
-			<Collapse line="65" />
-			<Collapse line="67" />
-			<Collapse line="87" />
-			<Collapse line="101" />
-			<Collapse line="207" />
-			<Collapse line="212" />
-			<Collapse line="247" />
-			<Collapse line="250" />
-		</Folding>
-	</File>
-	<File name="NesEmu\MappersInitiailizer.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="NesEmu\Mappers\Mapper010.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="148" topLine="3" />
 		</Cursor>
@@ -449,207 +770,24 @@
 			<Cursor1 position="148" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="NesEmu\Mappers\Mapper000.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\ExternalSoundChannels\SC_VRC6_Sawtooth.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\SC_Square2.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\Mappers\Mapper071.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\CPU.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="3" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\Mappers\Mapper024.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-		<Folding>
-			<Collapse line="52" />
-			<Collapse line="54" />
-			<Collapse line="89" />
-			<Collapse line="91" />
-			<Collapse line="141" />
-			<Collapse line="146" />
-			<Collapse line="160" />
-			<Collapse line="162" />
-			<Collapse line="164" />
-			<Collapse line="168" />
-			<Collapse line="172" />
-			<Collapse line="179" />
-			<Collapse line="182" />
-			<Collapse line="205" />
-		</Folding>
-	</File>
-	<File name="NesEmu\ExternalSoundChannels\SC_VRC6_Pulse1.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-	</File>
 	<File name="NesEmu\Mappers\Mapper025.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="148" topLine="3" />
 		</Cursor>
 	</File>
-	<File name="NesEmu\DMA.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="NesEmu\Mappers\Mapper007.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="main.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2882" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\SC_Square2.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\ExternalSoundChannels\SC_MMC5_Pulse2.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\SC_Square1.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="3" />
-		</Cursor>
-		<Folding>
-			<Collapse line="27" />
-			<Collapse line="34" />
-			<Collapse line="66" />
-			<Collapse line="92" />
-			<Collapse line="97" />
-			<Collapse line="100" />
-			<Collapse line="104" />
-			<Collapse line="118" />
-			<Collapse line="120" />
-			<Collapse line="123" />
-			<Collapse line="126" />
-			<Collapse line="134" />
-			<Collapse line="137" />
-			<Collapse line="144" />
-			<Collapse line="150" />
-			<Collapse line="152" />
-			<Collapse line="158" />
-			<Collapse line="162" />
-			<Collapse line="174" />
-			<Collapse line="186" />
-			<Collapse line="199" />
-			<Collapse line="207" />
-			<Collapse line="215" />
-			<Collapse line="227" />
-			<Collapse line="233" />
-		</Folding>
-	</File>
-	<File name="NesEmu\SC_Noise.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\Mappers\Mapper015.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\ExternalSoundChannels\SC_MMC5_Pulse1.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="SDLOut\SDLAudioOut.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1489" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\Mappers\Mapper001.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="3" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\CompositeVideoColorsGenerator.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="3" />
 		</Cursor>
 	</File>
 	<File name="SDLOut\SDLAudioOut.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2639" topLine="157" />
+			<Cursor1 position="1621" topLine="33" />
 		</Cursor>
 	</File>
-	<File name="NesEmu\Mappers\Mapper011.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="NesEmu\Mappers\Mapper003.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="148" topLine="0" />
 		</Cursor>
-	</File>
-	<File name="NesEmu\DMA.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\NES.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\Mappers\Mapper010.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="3" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\APU.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1290" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\SC_DMC.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="51" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\Mappers\Mapper018.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="3" />
-		</Cursor>
-	</File>
-	<File name="NesEmu\ExternalSoundChannels\SC_MMC5_Pulse1.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="148" topLine="0" />
-		</Cursor>
-		<Folding>
-			<Collapse line="27" />
-			<Collapse line="34" />
-			<Collapse line="59" />
-			<Collapse line="82" />
-			<Collapse line="85" />
-			<Collapse line="89" />
-			<Collapse line="97" />
-			<Collapse line="99" />
-			<Collapse line="104" />
-			<Collapse line="106" />
-			<Collapse line="112" />
-			<Collapse line="116" />
-			<Collapse line="129" />
-			<Collapse line="139" />
-			<Collapse line="143" />
-			<Collapse line="147" />
-			<Collapse line="156" />
-			<Collapse line="162" />
-		</Folding>
 	</File>
 </CodeBlocks_layout_file>

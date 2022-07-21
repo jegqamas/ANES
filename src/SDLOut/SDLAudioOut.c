@@ -53,8 +53,8 @@ void FixSpeed()
 {
     fps_mode = 0;
 
-    fps_nes_missle = NES_TargetFPS +29;
-    fps_pl_faster = NES_TargetFPS - 3;
+    fps_nes_missle = NES_TargetFPS + 13;// +30, 14, 15
+    fps_pl_faster = NES_TargetFPS - 2;
     fps_nes_normal =NES_TargetFPS;
 }
 void SDLAudioOut_Initialize()
@@ -75,12 +75,12 @@ void SDLAudioOut_Initialize()
 
     printf("ANES SDL RENDERERS: Audio buffer size in KB: %d ... \n",SDLAudioOut_BufferSizeInKB);
     sdl_buffer_size = 4 * 1024;
-    buffer_min = 512;
-    buffer_limit = sdl_buffer_size + 512;
+    buffer_min = 726;
+    buffer_limit = sdl_buffer_size + buffer_min;
 
-   // samples_count = (SDLAudioOut_BufferSizeInKB * 4 * 1024) + (buffer_min*2);
+    // samples_count = (SDLAudioOut_BufferSizeInKB * 4 * 1024) + (buffer_min*2);
 
- samples_count = SDLAudioOut_BufferSizeInKB  * 1024;
+    samples_count = SDLAudioOut_BufferSizeInKB  * 1024;
 
     sdl_audio_samples= (unsigned char*)malloc(samples_count * sizeof(unsigned char));
 

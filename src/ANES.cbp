@@ -27,12 +27,12 @@
 				<Option projectLibDirsRelation="1" />
 				<Compiler>
 					<Add option="-O3" />
-					<Add directory="../../../../SDL2/SDL2-2.0.20/x86_64-w64-mingw32/include" />
+					<Add directory="../../../SDL2/SDL2-2.0.22/x86_64-w64-mingw32/include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
 					<Add option="-lSDL2main -lSDL2" />
-					<Add directory="../../../../SDL2/SDL2-2.0.20/x86_64-w64-mingw32/lib" />
+					<Add directory="../../../SDL2/SDL2-2.0.22/x86_64-w64-mingw32/lib" />
 				</Linker>
 			</Target>
 			<Target title="Release32">
@@ -58,11 +58,11 @@
 		<Compiler>
 			<Add option="-march=i686" />
 			<Add option="-Wall" />
-			<Add directory="../../../SDL2/SDL2-2.0.20/x86_64-w64-mingw32/include" />
+			<Add directory="../../../SDL2/SDL2-2.0.22/x86_64-w64-mingw32/include" />
 		</Compiler>
 		<Linker>
 			<Add option="-lSDL2main -lSDL2" />
-			<Add directory="../../SDL2/SDL2-2.0.16/x86_64-w64-mingw32/lib" />
+			<Add directory="../../../SDL2/SDL2-2.0.22/x86_64-w64-mingw32/lib" />
 		</Linker>
 		<Unit filename="CHANGE_LOG">
 			<Option target="&lt;{~None~}&gt;" />

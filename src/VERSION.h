@@ -28,7 +28,7 @@
 
 // The application version: MajorVersion.MinorVersion.DateOfRelease
 // Date of release in format DDMMYY, example: for 31 August 2021, it will be 310821
-#define APP_VERSION "1.6.170722"
+#define APP_VERSION "1.6.210722"
 
 // Copyright message
 #define APP_COPYRIGHT "Copyright (C) Alaa Ibrahim Hadid 2021 - 2022"

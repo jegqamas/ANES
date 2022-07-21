@@ -74,7 +74,7 @@ int main(int argc,char* args[])
     NES_TargetFPS=60;
 // Video
     VideoOUT_Driver= "opengl";
-    VideoOUT_Filter= "1";// Linear
+    VideoOUT_Filter= "0";// Linear
     VideoOUT_ENABLE_ASPECT_RATIO_KEEP=0;
     VideoOUT_ENABLE_SPEED_LIMIT=1;
     VideoOUT_SHOW_FPS=0;
@@ -86,7 +86,7 @@ int main(int argc,char* args[])
     Player2_ControlMode = SDLInput_ControlMode_NONE;
     Player2_GC_Index = 1;
     // Audio
-    SDLAudioOut_BufferSizeInKB=22;// 22 correct, 24 is safe
+    SDLAudioOut_BufferSizeInKB=21;// 22 correct, 24 is safe
     SDLAudioOut_AudioFrequency=44100;
     SDLAudioOut_AudioVolume=100;
     SDLAudioOut_AudioChannels = 2;// Stereo by default
