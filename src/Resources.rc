@@ -1,0 +1,53 @@
+// This file is part of ANES (Agile Nes)
+//
+// A Nintendo Entertainment System / Family Computer (Nes/Famicom)
+// Emulator written in C.
+//
+// Copyright © Alaa Ibrahim Hadid 2021 - 2022
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.See the
+// GNU General Public License for more details.
+
+// You should have received a copy of the GNU General Public License
+// along with this program.If not, see<http://www.gnu.org/licenses/>.
+//
+// Author email: mailto:alaahadidfreeware@gmail.com
+//
+
+MAINICON ICON "icon.ico"
+1       VERSIONINFO
+FILEVERSION     1,7,230722,0
+PRODUCTVERSION  1,7,230722,0
+FILEFLAGSMASK   0X3FL
+FILEFLAGS       0L
+FILEOS          0X40004L
+FILETYPE        0X2
+FILESUBTYPE     0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileVersion", "1.7.230722 (23-July-2022)"
+            VALUE "ProductVersion", "1.7.230722"
+            VALUE "OriginalFilename", "ANES.exe"
+            VALUE "InternalName", "ANES.exe"
+            VALUE "FileDescription", "A Nintendo Entertainment System / Family Computer (Nes/Famicom) Emulator written in C."
+            VALUE "CompanyName", "N/A"
+            VALUE "LegalCopyright", "Copyright(C) 2021 - 2022 Alaa Ibrahim Hadid"
+            VALUE "ProductName", "Agile Nes"
+            VALUE "PrivateBuild", "Built by Alaa Ibrahim Hadid"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+            VALUE "Translation", 0x0409, 0x04B0
+    END
+END

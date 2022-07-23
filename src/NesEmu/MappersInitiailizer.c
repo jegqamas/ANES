@@ -195,9 +195,13 @@ void SetupMapper(int mapper_number)
     }
     case 71:
     {
-        // Depending on game, setup mapper configuration !
         NESSetupMapperPointers(Mapper000_OnCPUClock,Mapper071HardReset,Mapper000SoftReset);
         MEM_SET_MAPPER_PRG_PR(Mapper071_WritePR,Mapper000_ReadPR);
+        break;
+    }
+    case 87:
+    {
+        MEM_SET_MAPPER_PRG_EX(Mapper087_WriteEX,Mapper000_ReadEX);
         break;
     }
     }

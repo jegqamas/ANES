@@ -64,7 +64,7 @@ void NESInitialize(int game_source_mode, int audio_freq)
 
             // TV FORMAT TODO: setup tv format
             NES_TVFormat=TVFORMAT_NTSC;
-            NES_TargetFPS=60;
+            NES_TargetFPS=60.0988;
 
             // Mapper
             InitializeMappers(INES_MapperNumber);

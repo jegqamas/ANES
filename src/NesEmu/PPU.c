@@ -20,6 +20,7 @@
 //
 // Author email: mailto:alaahadidfreeware@gmail.com
 //
+#include "NES.h"
 #include "PPU.h"
 #include "DIFINES.h"
 #include "Memory.h"
@@ -263,11 +264,47 @@ void PPUHardReset(int tv_format)
     //Color_Saturation_Add = 21;
     //GenerrateColors(ppu_colors, ppu_tv_format);
 
-    CVC_Saturation = 1.5F;// 1.2F
     CVC_Hue_tweak = +0.15f;
-    CVC_Contrast = 1.2F;
-    CVC_Brightness = 1.07F;//1.122F
-    CVC_Gamma = 1.8F;
+    switch(NES_VideoColorMode)
+    {
+    case 0:
+    {
+        // Flat settings
+        CVC_Saturation = 1.0F;// 1.2F
+        CVC_Contrast = 1.0F;
+        CVC_Brightness = 1.0F;//1.122F
+        CVC_Gamma = 2.0F;
+        break;
+    }
+    case 1:
+    {
+        // Mode 1
+        CVC_Saturation = 1.1787F;// 1.2F
+        CVC_Contrast = 0.8F;
+        CVC_Brightness = 1.07679F;//1.07679F, 1.11F, 1.122F
+        CVC_Gamma = 1.8F;
+        break;
+    }
+    case 2:
+    {
+        // Mode 2
+        CVC_Saturation = 1.337F;// 1.2F
+        CVC_Contrast = 1.3F;
+        CVC_Brightness = 1.09507F;//1.0952F
+        CVC_Gamma = 1.643F;
+        break;
+    }
+    case 3:
+    {
+        // Mode 3
+        CVC_Saturation = 1.5F;// 1.2F
+        CVC_Contrast = 1.2F;
+        CVC_Brightness = 1.07F;//1.122F
+        CVC_Gamma = 1.8F;
+        break;
+    }
+    }
+
     GenerrateCompisteVideoColors(ppu_colors, ppu_tv_format);
 }
 void PPUSoftReset() {}

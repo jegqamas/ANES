@@ -14,14 +14,17 @@ My Nes is lisenced under GNU General Public License 3 as well. Please see <https
 # Introduction
 
 ANES is A Nintendo Entertainment System / Family Computer (Nes/Famicom) emulator written in C. 
-An open source .net freeware, licensed under the GNU GENERAL PUBLIC LICENSE; Version 3, 29 June 2007.
+An open source c freeware, licensed under the GNU GENERAL PUBLIC LICENSE; Version 3, 29 June 2007.
 
 The main goal of ANES is to be as accurate as possible, as fast as possible and brings the best gaming play experince possible.
 
 ANES is written in C programming language and uses SDL2 for rendering video and audio and for input handling.
-After tests, ANES  can run above 270 FPS in modern pcs with default settings (no commandline config).  
+After tests, ANES can run above 270 FPS in modern pcs with default settings (no commandline config).  
+
+ANES uses hi-resolution timer for fps handling (or frame limiting), this time close to nanoseconds. This brings very accurate frame clocking.
 
 ANES is a pixel accurate emulator, as close as possible to real nes hardware.
+
 ANES uses video resolution upscaling method allows to render video in full-hd resolution and even above.
 
 ANES can pass most of (known at development time of current version) nes tests that test nes hardware behaviors, such as cpu 6502 instructions, 
@@ -42,10 +45,10 @@ Also a very good audio mixer is implemented. ANES implements the audio filters t
   PPU vram-bus and io-bus are implemented as well.
 - Colors: decode nes colors as close as possible to the real nes hardware, including gray scale and emphasize. ANES does not use palette indexes.
 - TV Formats: NTSC.
-- Video Output: Resolution can be upscaled from res 256 x 240 nes basic till 1920 x 1080 Full HD and even higher resolutions. 
+- Video Output: Resolution can be upscaled from res 256 x 240 nes basic till 1920 x 1080 Full HD and even higher resolutions. Video can be maximized (window-fullscreen) using TAB key/mouse-double-click/-maximized commandline.
 - Sound Playback: playback frequency can be changed using command lines, set to 44100 Hz by default.
   
-  Bit rate fixed to 16 bit, channels can be set to Mono or Stereo. Audio playback is set to Stereo by default.
+  Bit rate fixed to 8 bit, channels can be set to Mono or Stereo. Audio playback is set to Stereo by default.
 
   Supports Stereo Nes Mode which is a hack of nes that allows audio channels to outputed in stereo with pan adjusted.
 
@@ -64,21 +67,20 @@ In order to run ANES  correctly in your machine, please make sure that your mach
 - CPU: depending on confugration used, ANES can run even on slow pcs. For default settings, ANES run perfect on 2 GHz cpus.
 - RAM: ANES usually uses about 60 to 80 MB ram. In other words, since operating system is running perfectly in your machine, 
   you should not worry about ram at all when using ANES for the exception of machines with 128 MB ram or less.
-  
+
 - For linux/other platforms users, SDL2 need to be installed first.
 
 To install SDL2 in Ubuntu Linux 20 LTS (it is recommended to take a look here: <https://packages.ubuntu.com/search?keywords=sdl2>):
 
 `sudo apt-get install libsdl2-2.0-0`
 
-
 Installing dev packages also should work:
 
 `sudo apt-get install libsdl2-dev`
 
-Don't forget to give exe access permission to ANES file (ANES in home folder for example):
+Don't forget to give exe access permission to ANES file (ANES in home folder for example, terminal working directory is home folder as well):
 
-`chmod 777 ANES`
+`chmod 777 ./ANES`
 
 
 # How To Use
@@ -87,25 +89,28 @@ ANES is a commandline program, thus it needs commandlines to be configured and t
 
 To run a game, a commandline like this should be used:
 
-`ANES.exe <path-to-game>`
+ANES.exe <path-to-game>
 
 OR (using " will fix problem of spaces in file path)
 
-`"<path-to-ANES.exe>" "<path-to-game>"`
+"<path-to-ANES.exe>" "<path-to-game>"
 
-`<path-to-game>: is the path of game file.`
+<path-to-game>: is the path of game file.
 
-In Windows (R) platform, ANES can be used simply by placing a shortcut of ANES.exe file, then the shortcut properties in the desktop can be edited to use the commands (in the "Target" field.)
+In Windows (R) platform, ANES can be used simply by placing a shortcut of ANES.exe file, then the shortcut properties in the desktop can be edited to use
+the commands (in the "Target" field.)
+
+For maximum performance running in Windows (R) platform:
+
+`<path-to-ANES.exe> <path-to-game> -nures -amono`
 
 For good quality running in Windows (R) platform:
 
 `<path-to-ANES.exe> <path-to-game> -ures -wins_m_2 -direct3d -afreq_480`
 
-This will run ANES using high res upscale with window size 1280 x 960, uses video driver Direct3D and Audio frequency 48000 Hz. Audio Channels are set to Stereo by default.
+This will enable Stereo Nes Mode with window maximized:
 
-This will enable Stereo Nes Mode with window size x 2:
-
-`<path-to-ANES.exe> <path-to-game> -astereones -wins_m_2`
+`<path-to-ANES.exe> <path-to-game> -astereones -maximized`
 
 Also, ANES can be used with emu-front-end, game launchers ...etc, a one tested with is Emulators Organizer: <https://github.com/jegqamas/Emulators-Organizer>.
 Simply add ANES into EO profile as an emulator and ready to go with assigned console.
@@ -114,37 +119,38 @@ Comandlines can be added and managed using emulators and/or roms properties.
 Running ANES without commandlines will run in standby mode (snow video output). 
 If a file with name "game.nes" is placed next to ANES executable file, ANES will run that game.
 
-For more details about commandlines and how to use them, see "Commandlines.txt/Commandlines" file.
+For more details about commandlines and how to use them, see "Commandlines.txt" file.
 
-For more details about shortcuts and controls, see "Shortcuts And Controls.txt/Shortcuts And Controls" file.
+For more details about shortcuts and controls, see "Shortcuts And Controls.txt" file.
 
 # Supported Mappers
 
 Please note that this list may get updated from version to another.
+
 I haven't tested all games on all supported mappers... if there is an issue please report in the issues page to update this list.
 
-**Latest supported mappers list for ANES 1.1.310821:**
+### Latest update was at version 1.7.230722 (23 July 2022 09:24):
 
-
-| Mapper Number | Board Name   | Status |
-|---------------|--------------|--------|
-| 000           | NROM         | OK     |
-| 001           | MMC1         | OK     |
-| 002           | UxROM        | OK     |
-| 003           | CNROM        | OK     |
-| 004           | MMC3         | OK     |
-| 005           | MMC5         | Good   |
-| 007           | AxROM        | OK     |
-| 009           | MMC2         | OK     |
-| 010           | MMC4         | OK     |
-| 011           | Color Dreams | OK     |
-| 013           | CPROM        | OK     |
-| 015           | K-1029       | OK     |
-| 018           | SS 88006     | OK     |
-| 021           | VRC4a        | OK     |
-| 022           | VRC2a        | OK     |
-| 023           | VRC2b        | Good   |
-| 024           | VRC6a        | OK     |
-| 025           | VRC4b        | OK     |
-| 026           | VRC6b        | OK     |
-| 071           | Camerica     | OK     |
+| Mapper Number | Board Name              | Status |
+|---------------|-------------------------|--------|
+| 000           | NROM                    | OK     |
+| 001           | MMC1                    | OK     |
+| 002           | UxROM                   | OK     |
+| 003           | CNROM                   | OK     |
+| 004           | MMC3                    | OK     |
+| 005           | MMC5                    | Good   |
+| 007           | AxROM                   | OK     |
+| 009           | MMC2                    | OK     |
+| 010           | MMC4                    | OK     |
+| 011           | Color Dreams            | OK     |
+| 013           | CPROM                   | OK     |
+| 015           | K-1029                  | OK     |
+| 018           | SS 88006                | OK     |
+| 021           | VRC4a                   | OK     |
+| 022           | VRC2a                   | OK     |
+| 023           | VRC2b                   | Good   |
+| 024           | VRC6a                   | OK     |
+| 025           | VRC4b                   | OK     |
+| 026           | VRC6b                   | OK     |
+| 071           | Camerica                | OK     |
+| 087           | Jaleco/Konami/Taito     | OK     |

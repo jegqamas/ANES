@@ -74,13 +74,15 @@ void SDLAudioOut_Initialize()
         printf("ANES SDL RENDERERS: Audio Channels set to 1 (Mono) \n");
 
     printf("ANES SDL RENDERERS: Audio buffer size in KB: %d ... \n",SDLAudioOut_BufferSizeInKB);
-    sdl_buffer_size = 4 * 1024;
+    sdl_buffer_size = SDLAudioOut_BufferSizeInKB * 1024;
     buffer_min = 726;
     buffer_limit = sdl_buffer_size + buffer_min;
 
     // samples_count = (SDLAudioOut_BufferSizeInKB * 4 * 1024) + (buffer_min*2);
 
-    samples_count = SDLAudioOut_BufferSizeInKB  * 1024;
+    samples_count = sdl_buffer_size  * 6;
+
+    printf("ANES SDL RENDERERS: Audio samples count (buffer size in kb * 1024 * 6): %d ... \n",samples_count);
 
     sdl_audio_samples= (unsigned char*)malloc(samples_count * sizeof(unsigned char));
 
@@ -91,7 +93,6 @@ void SDLAudioOut_Initialize()
         sdl_audio_samples[i] = val;
     }
 
-    printf("ANES SDL RENDERERS: Audio buffer size in bytes: %d ... \n",sdl_buffer_size);
     SDL_Init(SDL_INIT_AUDIO);
 
     // List audio drivers

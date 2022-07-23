@@ -172,6 +172,9 @@
 		<Unit filename="NesEmu/Mappers/Mapper071.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="NesEmu/Mappers/Mapper087.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="NesEmu/Mappers/_Mappers.h" />
 		<Unit filename="NesEmu/Memory.c">
 			<Option compilerVar="CC" />
@@ -213,6 +216,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="NesEmu/SoundFilters.h" />
+		<Unit filename="Resources.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
 		<Unit filename="SDLOut/SDLAudioOut.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -227,6 +233,7 @@
 		<Unit filename="SDLOut/SDLVideoOut.h" />
 		<Unit filename="SDLOut/SDL_RENDERERS_DEFINES.h" />
 		<Unit filename="VERSION.h" />
+		<Unit filename="icon.ico" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

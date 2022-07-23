@@ -1,4 +1,20 @@
 -------------------------------------------------------------------
+23-07-2022 07:43 by Alaa Ibrahim Hadid
+
+- Changed default settings (now it is Stereo by default, it uses Hi-Res-Upscale by default)
+
+-------------------------------------------------------------------
+22-07-2022 15:02 by Alaa Ibrahim Hadid
+
+- Added ability to toggle maximize mode by command-line (-maximized), TAB button press or mouse double click.
+- Replaced frame-limiter timer with high resolution timer clocking on nanoseconds. Now fps is very accurate.
+- Adjusted internal color values for better (and Agile Nes default) colors.
+- Optimized Audio buffer-to-buffer synchronize, also fixed audio rendering issues such as speed push. Now it runs even better sound and performance
+- Fixed Audio buffer adjusting using command-lines.
+- Added support for mapper # 87.
+- Changed default settings (now it is Mono by default instead of Stereo, it uses Point filter instead of Linear)
+
+-------------------------------------------------------------------
 21-07-2022 13:14 by Alaa Ibrahim Hadid
 
 - Fixed colors (internal color configurations such as brightness and saturation)

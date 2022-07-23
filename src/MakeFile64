@@ -24,6 +24,7 @@ DIRS += obj/NesEmu/ROM/
 SRCS :=
 CPPS := $(subst ./,obj/,$(shell find . -regex ^.*?\.c$))
 OBJS := $(subst .c,.o,$(CPPS))
+
 MKDIR := mkdir -p $(DIRS)
 
 INCLUDES := 
@@ -51,9 +52,9 @@ else
 	LINKERS = 
 endif
 
-all: dir $(OBJS)
+all: dir $(filter-out obj/Resources.rc,$(OBJS))
 	@echo Creating executable $@
-	$(CXX) $(OBJS) $(CPFLAGS) $(INCLUDES) -lm $(LINKERS) $(LDFLAGS) -o $(TARGET_FILE)
+	$(CXX) $(filter-out obj/Resources.rc,$(OBJS))  $(CPFLAGS) $(INCLUDES) -lm $(LINKERS) $(LDFLAGS) -o $(TARGET_FILE)
 	
 dir:
 	$(MKDIR)
@@ -63,7 +64,9 @@ obj/%.o: %.c
 	@$(CXX) $(CXXFLAGS) $< -o $@
 
 obj/Resources.o: Resources.rc
-	@windres.exe -J rc -O coff -i Resources.rc -o $@
+	cp $< $@
 	
+obj/Resources.rc: Resources.rc
+	cp $< $@
 clean:
 	@$(RM) $(OBJS)

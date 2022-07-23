@@ -30,6 +30,7 @@ int VideoOUT_ENABLE_ASPECT_RATIO_KEEP;// enable or disable keep aspect ratio. (d
 int VideoOUT_INITIALIZED;// indicates if the video provider is initialized and ready to use (NEVER SET THIS)
 int VideoOUT_EMU_SIGNAL_ON;// indicates if the video currently receiving signals from emu core. Set this to off will set video to standby mode (snow rendering).
 char VideoOut_ENABLE_EMU_ON_DELAY;
+char VideoOut_ENABLE_EMU_ON_DELAY_START_WITH_FULLSCREEN;
 int VideoOut_EMU_ON_DELAY_TIMER;
 int VideoOUT_IS_RENDERING;// indicates if the video provider is rendering or not. Set internally each frame. Has no effect if set externally.
 int VideoOUT_SHOW_FPS;// indicates if the fps should be displayed

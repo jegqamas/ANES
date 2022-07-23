@@ -20,29 +20,12 @@
 //
 // Author email: mailto:alaahadidfreeware@gmail.com
 //
-char NES_ON;
-char NES_PAUSED;
+#include "_Mappers.h"
+#include "../Memory.h"
+#include "../DIFINES.h"
 
-char NES_IsGameLoaded;// indicates if nes emu is loaded with a game and ready to run
-char* NES_GameLoadedName;// indicates if nes emu is loaded with a game and ready to run
-int NES_Mirroring;// Default mirroring
-
-int NES_IRQFlags;
-double NES_TargetFPS;
-int NES_TVFormat;
-int NES_VideoColorMode;
-int NES_AudioFrequency;
-
-// Calling this assumes that game is loaded and ready to go
-void NESInitialize(int game_source_mode, int audio_freq);
-void NESSetupMapperPointers(void (*board_on_cpu_clock)(),void (*board_hard_reset)(),void (*board_soft_reset)());
-void NESHardReset();
-void NESSoftReset();
-void NESClock();
-void NESClockFrame();
-void (*NESClockComponents)();
-
-void NESClockComponentsNTSC();
-void NESClockComponentsPALB();
-void ClockComponentsBlank();
-void NESCheckInterrupts();
+void Mapper087_WriteEX(unsigned short *address, unsigned char *value)
+{
+    if ((*address) >= 0x6000)
+        MEM_SWITCH_CHR_08KB(CHR_AREA_0000,(((*value) & 0x2) >> 1) | (((*value) & 0x1) << 1));
+}

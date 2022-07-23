@@ -177,3 +177,7 @@ char Mapper071_FirehawkMode;
 void Mapper071HardReset();
 void Mapper071_WritePR(unsigned short *address, unsigned char *value);
 /*****************************************************/
+
+/*MAPPER 087*****************************************/
+void Mapper087_WriteEX(unsigned short *address, unsigned char *value);
+/*****************************************************/

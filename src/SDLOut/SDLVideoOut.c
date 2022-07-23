@@ -58,6 +58,7 @@ SOFTWARE.
 #include "SDLInput.h"
 #include <SDL2/SDL.h>
 #include <math.h>
+#include <time.h>
 #include "../NesEmu/PPU.h"
 #include "../NesEmu/APU.h"
 #include "../NesEmu/NES.h"
@@ -89,22 +90,53 @@ int buffer_size;// Screen buffer size.
 // FPS TEXT
 char fps_text[20];
 double fps_avg;
-int fps_count;
+double fps_count;
+double vid_fps;
 
-unsigned int fps_time_last;// the frame end time (time point)
-unsigned int fps_time_start;// the frame start time (time point)
-unsigned int fps_time_token;// how much time in seconds the rendering process toke
-unsigned int fps_time_dead;// how much time remains for the target frame rate. For example, if a frame toke 3 milliseconds to complete, we'll have 16-3=13 dead time for 60 fps.
-unsigned int fps_time_period;// how much time in seconds a frame should take for target fps. i.e. ~16 milliseconds for 60 fps.
-unsigned int fps_time_frame_time;// the actual frame time after rendering and speed limiting. This should be equal to fps_time_period for perfect emulation timing.
+long fps_time_finish_time;// the frame end time (time point)
+long fps_time_start_time;// the frame start time (time point)
+long fps_time_current;// how much time in seconds the rendering process toke
+long fps_time_token;// how much time in seconds the rendering process toke
+long fps_time_dead;// how much time remains for the target frame rate. For example, if a frame toke 3 milliseconds to complete, we'll have 16-3=13 dead time for 60 fps.
+long fps_time_period;// how much time in seconds a frame should take for target fps. i.e. ~16 milliseconds for 60 fps.
 
-unsigned int timer_time_last;// the frame end time (time point)
-unsigned int timer_time_start;// the frame start time (time point)
-unsigned int timer_time_token;// how much time in seconds the rendering process toke
+long timer_time_last;// the frame end time (time point)
+long timer_time_start;// the frame start time (time point)
+long timer_time_token;// how much time in seconds the rendering process toke
 
 SDL_Event event;// Events picked up from SDL2
 
 void(*emu_clock_frame)();
+
+struct timespec now_time;
+
+void ToggleFullscreen()
+{
+    if((SDL_GetWindowFlags(window) & SDL_WINDOW_MAXIMIZED)== SDL_WINDOW_MAXIMIZED)
+    {
+        SDL_RestoreWindow(window);
+    }
+    else if((SDL_GetWindowFlags(window) & SDL_WINDOWEVENT_MINIMIZED)== SDL_WINDOWEVENT_MINIMIZED)
+    {
+        SDL_RestoreWindow(window);
+    }
+    else
+    {
+        SDL_MaximizeWindow(window);
+        SDL_WarpMouseInWindow(window, 0, 0);
+    }
+}
+
+void GetTimeNanoSeconds(long * nanoseconds_val)
+{
+    clock_gettime(CLOCK_REALTIME, &now_time);
+    (*nanoseconds_val)=now_time.tv_nsec;
+}
+void GetTimeMicrosecondsSeconds(long * microseconds_val)
+{
+    clock_gettime(CLOCK_REALTIME, &now_time);
+    (*microseconds_val)=now_time.tv_sec * 1000;
+}
 
 // PUBLIC METHODS//////////////////////////////
 // Initialize the video provider
@@ -178,12 +210,12 @@ void VideoOUT_Initialize(int render_width, int render_height, int target_res_wid
     // Create the renderer that will render the texture.
     if (VideoOUT_ENABLE_VSYNC)
     {
-        renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_TARGETTEXTURE | SDL_RENDERER_ACCELERATED |
-                                      SDL_RENDERER_PRESENTVSYNC);
+        renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_TARGETTEXTURE | SDL_RENDERER_PRESENTVSYNC);
+        printf("ANES SDL RENDERERS: VSYNC IS ENABLED !!.\n");
     }
     else
     {
-        renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_TARGETTEXTURE | SDL_RENDERER_ACCELERATED);
+        renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_TARGETTEXTURE);
     }
 
     printf("ANES SDL RENDERERS: renderer is ready !\n");
@@ -251,7 +283,9 @@ void VideoOUT_Run()
 // Run the video on thread one frame.
 void VideoOUT_RunThreaded()
 {
-    fps_time_start = SDL_GetTicks64();
+    //fps_time_start = SDL_GetTicks64();
+
+
     if (!VideoOUT_EMU_SIGNAL_ON)// Emu is off, draw snow.
     {
         for (int i = 0; i < buffer_size; i++)
@@ -270,6 +304,13 @@ void VideoOUT_RunThreaded()
             {
                 VideoOut_ENABLE_EMU_ON_DELAY=0;
                 VideoOUT_EMU_SIGNAL_ON=1;
+
+                if (VideoOut_ENABLE_EMU_ON_DELAY_START_WITH_FULLSCREEN)
+                {
+                    VideoOut_ENABLE_EMU_ON_DELAY_START_WITH_FULLSCREEN=0;
+                    SDL_MaximizeWindow(window);
+                     SDL_WarpMouseInWindow(window, 0, 0);
+                }
             }
         }
     }
@@ -364,44 +405,68 @@ void VideoOUT_RunThreaded()
     VideoOUT_CheckEvents();
 
     // 5 HANDLE FPS limit
-    fps_time_token = SDL_GetTicks64() - fps_time_start;
+    GetTimeNanoSeconds(&fps_time_finish_time);
+    //printf("start = %d nanosecond \n",fps_time_start_time);  printf("finish = %d nanosecond \n",fps_time_finish_time);
+    fps_time_token = fps_time_finish_time - fps_time_start_time;
+    //printf("tocken = %d nanosecond \n",fps_time_token);
 
     if (VideoOUT_ENABLE_SPEED_LIMIT)
     {
-        if (fps_time_token>0)
+        fps_time_dead = fps_time_period - fps_time_token;
+        // printf("dead = %d \n",fps_time_dead);
+        if (fps_time_dead > 0 && fps_time_dead < 1000000000)
         {
-            fps_time_dead = fps_time_period - fps_time_token;
-            // printf("%d \n",fps_time_dead);
-            if (fps_time_dead > 0 && fps_time_dead < 1000)
+            //std::this_thread::sleep_for(std::chrono::microseconds(fps_time_dead));
+            //
+            //printf("%d \n",fps_time_dead);
+            /*while ((fps_time_last - fps_time_start) < fps_time_period)
             {
-                //std::this_thread::sleep_for(std::chrono::microseconds(fps_time_dead));
-                SDL_Delay(fps_time_dead);
-                //printf("%d \n",fps_time_dead);
+                GetTimeNanoSeconds(&fps_time_last);
+            }*/
+
+            // SDL_Delay(fps_time_dead /  1000000);// delay in milliseconds to releave the cpu
+            usleep(fps_time_dead /  1000);
+            // left over nanoseconds, just delay a little more bit to get the extra resolution
+            GetTimeNanoSeconds(&fps_time_current);
+            while ((fps_time_current - fps_time_start_time) < fps_time_period)
+            {
+                GetTimeNanoSeconds(&fps_time_current);
+                if ((fps_time_current - fps_time_start_time) >= fps_time_period)
+                    break;
+                if ((fps_time_current - fps_time_start_time) < 0)
+                    break;
             }
         }
     }
-    fps_time_last = SDL_GetTicks64();
-    fps_time_frame_time = fps_time_last - fps_time_start;
 
     if (VideoOUT_SHOW_FPS)
     {
-        if (fps_time_frame_time>0)
-            fps_avg += (1000 / fps_time_frame_time);
+        // update time token again
+        GetTimeNanoSeconds(&fps_time_finish_time);
+        fps_time_token = fps_time_finish_time - fps_time_start_time;
+        if (fps_time_token>0)
+        {
+            // printf("fps %f  \n", (1000000000 / (double)fps_time_token));
+            fps_avg += (1000000000 / (double)fps_time_token);
+        }
 
         fps_count++;
 
         // Set FPS at one second time
-        if ( (SDL_GetTicks64() - timer_time_start) >=1000)
+        long valll=0;
+        GetTimeMicrosecondsSeconds(&valll);
+        if ( (valll - timer_time_start) >=1000)
         {
-            timer_time_start = SDL_GetTicks64();
+            //timer_time_start = SDL_GetTicks64();
+            GetTimeMicrosecondsSeconds(&timer_time_start);
 
-            int vid_fps = 0;
+            vid_fps=0;
             if (fps_count > 0)
                 vid_fps = fps_avg / fps_count;
 
             fps_avg = fps_count = 0;
 
-            sprintf(fps_text, "FPS: %d", vid_fps);
+            sprintf(fps_text, "FPS: %.2f", vid_fps);
             //VideoOUT_WriteFps(fps_text, 0x00FF00);
 
             char name[200];
@@ -413,6 +478,8 @@ void VideoOUT_RunThreaded()
             SDL_SetWindowTitle(window,name);
         }
     }
+
+    GetTimeNanoSeconds(&fps_time_start_time);
 }
 // Setup target fps. This should be set after initialize and/or after running a system to specify the target fps that the system should run at.
 void VideoOUT_SetupTargetFPS(double target_fps)
@@ -421,9 +488,9 @@ void VideoOUT_SetupTargetFPS(double target_fps)
     //fps_time_period*=1000;
 
     double p = (1.0 / target_fps);
-    p *=1000;
-    fps_time_period= (int)floor(p);
-    //printf("Frame period %f milliseconds \n", floor(p));
+    p *=1000000000;
+    fps_time_period= p;
+    //printf("Frame period %d nanoseconds \n", fps_time_period);
 }
 
 void VideoOUT_SetupEmuFrameClock(void(*EmuFrameFunction)())
@@ -445,12 +512,28 @@ void VideoOUT_CheckEvents()
         {
             VideoOUT_ON = 0;
         }
+        else if (event.type == SDL_MOUSEBUTTONDOWN)
+        {
+            if (event.button.clicks >= 2)
+            {
+                ToggleFullscreen();
+            }
+        }
         else if (event.type == SDL_KEYDOWN)
         {
             //Select surfaces based on key press
             if (event.key.keysym.sym == SDLK_ESCAPE)
             {
-                VideoOUT_ON = 0;
+                if((SDL_GetWindowFlags(window) & SDL_WINDOW_MAXIMIZED)== SDL_WINDOW_MAXIMIZED)
+                {
+                    SDL_RestoreWindow(window);
+                }
+                else if((SDL_GetWindowFlags(window) & SDL_WINDOWEVENT_MINIMIZED)== SDL_WINDOWEVENT_MINIMIZED)
+                {
+                    SDL_RestoreWindow(window);
+                }
+                else
+                    VideoOUT_ON = 0;
             }
             if (event.key.keysym.sym == SDLK_F1)
             {
@@ -493,6 +576,10 @@ void VideoOUT_CheckEvents()
                 VideoOUT_ENABLE_ASPECT_RATIO_KEEP = !VideoOUT_ENABLE_ASPECT_RATIO_KEEP;
                 VideoOUT_CalculateTargetRect();
             }
+            if (event.key.keysym.sym == SDLK_TAB)
+            {
+                ToggleFullscreen();
+            }
         }
         else if (event.type == SDL_WINDOWEVENT)
         {
@@ -512,8 +599,8 @@ void VideoOUT_CalculateTargetRect()
 
     if (VideoOUT_ENABLE_ASPECT_RATIO_KEEP && renderPixelsRect != NULL)
     {
-        // Calculate aspect ratio
-        VideoOUT_GetRatioStretchRectangle(renderPixelsRect->w, renderPixelsRect->h, window_w, window_h,
+        // Calculate aspect ratio occurding to NTSC standard resolution which Agile Nes uses
+        VideoOUT_GetRatioStretchRectangle(640, 480, window_w, window_h,
                                           &targetPixelsRect->x,
                                           &targetPixelsRect->y,
                                           &targetPixelsRect->w,

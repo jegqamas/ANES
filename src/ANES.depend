@@ -2408,7 +2408,7 @@
 	"SC_Triangle.h"
 	"SoundFilters.h"
 
-1658395665 h:\programming\agilenes\anes\src\nesemu\nes.h
+1658487845 h:\programming\agilenes\anes\src\nesemu\nes.h
 
 1658395665 h:\programming\agilenes\anes\src\nesemu\apu.h
 
@@ -2484,7 +2484,7 @@
 	"../DIFINES.h"
 	"../NES.h"
 
-1658395665 h:\programming\agilenes\anes\src\nesemu\mappers\_mappers.h
+1658490835 h:\programming\agilenes\anes\src\nesemu\mappers\_mappers.h
 
 1658395665 source:h:\programming\agilenes\anes\src\nesemu\mappers\mapper001.c
 	"_Mappers.h"
@@ -2605,7 +2605,7 @@
 	"../Memory.h"
 	"../DIFINES.h"
 
-1658395665 source:h:\programming\agilenes\anes\src\nesemu\mappersinitiailizer.c
+1658490906 source:h:\programming\agilenes\anes\src\nesemu\mappersinitiailizer.c
 	"Mappers/_Mappers.h"
 	"MappersInitiailizer.h"
 	"Memory.h"
@@ -2621,7 +2621,7 @@
 	"APU.h"
 	"NES.h"
 
-1658399255 source:h:\programming\agilenes\anes\src\nesemu\nes.c
+1658470868 source:h:\programming\agilenes\anes\src\nesemu\nes.c
 	"NES.h"
 	"DIFINES.h"
 	"ROM/INES.h"
@@ -2635,7 +2635,8 @@
 
 1658395665 h:\programming\agilenes\anes\src\nesemu\rom\ines.h
 
-1658395777 source:h:\programming\agilenes\anes\src\nesemu\ppu.c
+1658490043 source:h:\programming\agilenes\anes\src\nesemu\ppu.c
+	"NES.h"
 	"PPU.h"
 	"DIFINES.h"
 	"Memory.h"
@@ -2679,7 +2680,7 @@
 	"SoundFilters.h"
 	<math.h>
 
-1658400886 source:h:\programming\agilenes\anes\src\sdlout\sdlaudioout.c
+1658485633 source:h:\programming\agilenes\anes\src\sdlout\sdlaudioout.c
 	"SDLAudioOut.h"
 	"SDLVideoOut.h"
 	"SDL2/SDL.h"
@@ -2687,7 +2688,7 @@
 
 1658395665 h:\programming\agilenes\anes\src\sdlout\sdlaudioout.h
 
-1658395665 h:\programming\agilenes\anes\src\sdlout\sdlvideoout.h
+1658492941 h:\programming\agilenes\anes\src\sdlout\sdlvideoout.h
 
 1641849092 h:\programming\sdl2\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl.h
 	"SDL_main.h"
@@ -3078,7 +3079,7 @@
 
 1658395665 h:\programming\agilenes\anes\src\sdlout\sdl_renderers_defines.h
 
-1658398688 source:h:\programming\agilenes\anes\src\sdlout\sdlvideoout.c
+1658494804 source:h:\programming\agilenes\anes\src\sdlout\sdlvideoout.c
 	<stdio.h>
 	<string.h>
 	"SDLVideoOut.h"
@@ -3086,14 +3087,15 @@
 	"SDLInput.h"
 	<SDL2/SDL.h>
 	<math.h>
+	<time.h>
 	"../NesEmu/PPU.h"
 	"../NesEmu/APU.h"
 	"../NesEmu/NES.h"
 	"../VERSION.h"
 
-1658398809 h:\programming\agilenes\anes\src\version.h
+1658491207 h:\programming\agilenes\anes\src\version.h
 
-1658400945 source:h:\programming\agilenes\anes\src\main.c
+1658496350 source:h:\programming\agilenes\anes\src\main.c
 	"SDLOut/SDLVideoOut.h"
 	"SDLOut/SDLAudioOut.h"
 	"SDLOut/SDLInput.h"
@@ -4577,4 +4579,9 @@
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
+
+1658491091 source:h:\programming\agilenes\anes\src\nesemu\mappers\mapper087.c
+	"_Mappers.h"
+	"../Memory.h"
+	"../DIFINES.h"
 
